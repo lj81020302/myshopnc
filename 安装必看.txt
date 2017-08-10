@@ -1,0 +1,38 @@
+运维舫 v7.0.0
+
+安装之前准备工作：把你的PHP环境配置好，程序只支持php5.3以上的版本，php.ini要支持以下：
+extension=php_curl.dll
+extension=php_openssl.dll
+date.timezone =PRC
+session.auto_start = 1
+asp_tags = Off
+short_open_tag = On
+
+安装前以下目录要有写入、修改权限：
+    /data/cache
+    /data/config
+    /data/log
+    /data/session
+    /data/resource/phpqrcode/temp
+    /data/upload
+    /sql_back
+    /install
+
+1、源码安装：
+域名/install
+平台-网站缓存
+2、IM安装教程
+下载地址：链接：http://pan.baidu.com/s/1dDVYUe1 密码：cfvc
+
+----------------------------------------------
+
+唯一官方网：www.shopnc.club
+唯一淘宝店：https://shopsearch.taobao.com/search?app=shopsearch&q=%E8%BF%90%E7%BB%B4%E8%88%AB
+唯一技术QQ：76809326
+
+二次开发请联系论坛右边的客服中心相关开发人员。
+
+运维舫：多名技术人员，提供持续更新和售后，欢迎前来咨询与交流。
+
+本模板只用于学习交流使用。无论您是个人组织、盈利与否、用途如何（包括以学习和研究为目的），均与运维舫无关！运维舫只提供相关技术服务！不负责任何商业责任！还请知悉。
+

@@ -1,0 +1,63 @@
+[2017-06-30 00:09:59] /shopnc/mobile/index.php?act=goods&op=goods_detail&goods_id=100009&key= ( act=goods&op=goods_detail ) 
+ERR: Db Error: MySQL server has gone away
+SELECT * FROM `nc_p_sole_goods` WHERE ( goods_id = '100009' ) AND ( sole_state = '1' ) LIMIT 1  
+[2017-06-30 00:09:59] /shopnc/mobile/index.php?act=goods&op=goods_detail&goods_id=100009&key= ( act=goods&op=goods_detail ) 
+ERR: Db Error: MySQL server has gone away
+SELECT * FROM `nc_groupbuy` WHERE ( state = '20' ) AND ( end_time > '1498752588' ) AND ( goods_commonid = '100009' ) ORDER BY start_time asc LIMIT 1  
+[2017-06-30 00:09:59] /shopnc/mobile/index.php?act=goods&op=goods_detail&goods_id=100009&key= ( act=goods&op=goods_detail ) 
+ERR: Db Error: MySQL server has gone away
+SELECT * FROM `nc_p_xianshi_goods` WHERE ( state = '1' ) AND ( end_time > '1498752588' ) AND ( goods_id = '100009' ) ORDER BY start_time asc LIMIT 1  
+[2017-06-30 00:09:59] /shopnc/mobile/index.php?act=goods&op=goods_detail&goods_id=100009&key= ( act=goods&op=goods_detail ) 
+ERR: Db Error: MySQL server has gone away
+SELECT sku_id, cou_id FROM `nc_p_cou_sku` WHERE ( sku_id IN ('100009') ) AND ( tstart < '1498752599' ) AND ( tend > '1498752599' ) LIMIT 1000  
+[2017-06-30 00:09:59] /shopnc/mobile/index.php?act=goods&op=goods_detail&goods_id=100009&key= ( act=goods&op=goods_detail ) 
+ERR: Db Error: MySQL server has gone away
+SELECT * FROM `nc_p_cou` WHERE ( id IN('') ) AND ( state = '1' ) AND ( tstart < '1498752599' ) AND ( tend > '1498752599' ) LIMIT 1000  
+[2017-06-30 00:09:59] /shopnc/mobile/index.php?act=goods&op=goods_detail&goods_id=100009&key= ( act=goods&op=goods_detail ) 
+ERR: Db Error: MySQL server has gone away
+SELECT min(tstart) mt FROM `nc_p_cou_sku` WHERE ( sku_id = '100009' ) AND ( tstart >= '1498752599' ) LIMIT 1  
+[2017-06-30 00:09:59] /shopnc/mobile/index.php?act=goods&op=goods_detail&goods_id=100009&key= ( act=goods&op=goods_detail ) 
+ERR: Db Error: MySQL server has gone away
+SELECT * FROM `nc_goods_common` WHERE ( goods_commonid = '100009' ) LIMIT 1  
+[2017-06-30 00:09:59] /shopnc/mobile/index.php?act=goods&op=goods_detail&goods_id=100009&key= ( act=goods&op=goods_detail ) 
+ERR: Db Error: MySQL server has gone away
+SELECT goods_spec,goods_id,store_id,goods_image,color_id FROM `nc_goods` WHERE ( goods_commonid = '100009' ) LIMIT 1000  
+[2017-06-30 00:09:59] /shopnc/mobile/index.php?act=goods&op=goods_detail&goods_id=100009&key= ( act=goods&op=goods_detail ) 
+ERR: Db Error: MySQL server has gone away
+SELECT goods_image FROM `nc_goods_images` WHERE ( goods_commonid = '100009' ) AND ( color_id = '0' ) ORDER BY is_default desc,goods_image_sort asc LIMIT 1000  
+[2017-06-30 00:09:59] /shopnc/mobile/index.php?act=goods&op=goods_detail&goods_id=100009&key= ( act=goods&op=goods_detail ) 
+ERR: Db Error: MySQL server has gone away
+SELECT * FROM `nc_goods_gift` WHERE ( goods_id = '100009' ) LIMIT 1000  
+[2017-06-30 00:09:59] /shopnc/mobile/index.php?act=goods&op=goods_detail&goods_id=100009&key= ( act=goods&op=goods_detail ) 
+ERR: Db Error: MySQL server has gone away
+SELECT * FROM `nc_p_mansong` WHERE ( state = '1' ) AND ( store_id = '1' ) AND ( end_time > '1498752588' ) ORDER BY start_time asc LIMIT 1  
+[2017-06-30 00:09:59] /shopnc/mobile/index.php?act=goods&op=goods_detail&goods_id=100009&key= ( act=goods&op=goods_detail ) 
+ERR: Db Error: MySQL server has gone away
+UPDATE `nc_goods` SET goods_click=goods_click + 1,goods_edittime='1498752588' WHERE ( goods_id IN ('100009') )
+[2017-06-30 00:09:59] /shopnc/mobile/index.php?act=goods&op=goods_detail&goods_id=100009&key= ( act=goods&op=goods_detail ) 
+ERR: Db Error: MySQL server has gone away
+SELECT goods_id,goods_name,goods_jingle,goods_image,store_id,goods_promotion_price FROM `nc_goods` WHERE ( store_id = '1' ) AND ( goods_commend = '1' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY goods_commonid ORDER BY rand() LIMIT 8  
+[2017-06-30 00:09:59] /shopnc/mobile/index.php?act=goods&op=goods_detail&goods_id=100009&key= ( act=goods&op=goods_detail ) 
+ERR: Db Error: MySQL server has gone away
+SELECT * FROM `nc_p_sole_goods` WHERE ( goods_id IN('') ) ORDER BY sole_goods_id asc LIMIT 1000  
+[2017-06-30 00:09:59] /shopnc/mobile/index.php?act=goods&op=goods_detail&goods_id=100009&key= ( act=goods&op=goods_detail ) 
+ERR: Db Error: MySQL server has gone away
+SELECT * FROM `nc_store` WHERE ( store_id = '1' ) LIMIT 1  
+[2017-06-30 00:09:59] /shopnc/mobile/index.php?act=goods&op=goods_detail&goods_id=100009&key= ( act=goods&op=goods_detail ) 
+ERR: Db Error: MySQL server has gone away
+SELECT * FROM `nc_evaluate_goods` WHERE ( geval_goodsid = '100009' ) ORDER BY geval_id desc LIMIT 3  
+[2017-06-30 00:09:59] /shopnc/mobile/index.php?act=goods&op=goods_detail&goods_id=100009&key= ( act=goods&op=goods_detail ) 
+ERR: Db Error: MySQL server has gone away
+SELECT count(*) as count,geval_scores FROM `nc_evaluate_goods` WHERE ( geval_goodsid = '100009' ) GROUP BY geval_scores LIMIT 1000  
+[2017-06-30 00:09:59] /shopnc/mobile/index.php?act=goods&op=goods_detail&goods_id=100009&key= ( act=goods&op=goods_detail ) 
+ERR: Db Error: MySQL server has gone away
+SELECT COUNT(*) AS nc_count FROM `nc_evaluate_goods` WHERE ( geval_goodsid = '100009' ) AND ( (geval_image <> '') OR (geval_image_again <> '') ) LIMIT 1  
+[2017-06-30 00:09:59] /shopnc/mobile/index.php?act=goods&op=goods_detail&goods_id=100009&key= ( act=goods&op=goods_detail ) 
+ERR: Db Error: MySQL server has gone away
+UPDATE `nc_goods` SET evaluation_good_star='5',evaluation_count='0',goods_edittime='1498752588' WHERE ( goods_id IN ('100009') )
+[2017-06-30 00:09:59] /shopnc/mobile/index.php?act=goods&op=goods_detail&goods_id=100009&key= ( act=goods&op=goods_detail ) 
+ERR: Db Error: MySQL server has gone away
+SELECT transport_id,store_id,goods_freight,goods_storage FROM `nc_goods` WHERE ( goods_id = '100009' ) LIMIT 1  
+[2017-06-30 00:09:59] /shopnc/mobile/index.php?act=goods&op=goods_detail&goods_id=100009&key= ( act=goods&op=goods_detail ) 
+ERR: Db Error: MySQL server has gone away
+SELECT * FROM `nc_store` WHERE ( store_id = NULL ) LIMIT 1  

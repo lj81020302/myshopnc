@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="format-detection" content="telephone=no"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="msapplication-tap-highlight" content="no" />
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,minimum-scale=1" />
+<script type="text/html" id="product_title"><title><%=goods_info.goods_name%></title></script>
+<link rel="stylesheet" type="text/css" href="../../css/fx_base.css">
+<link rel="stylesheet" type="text/css" href="../../css/fx_nctouch_common.css">
+<link rel="stylesheet" type="text/css" href="../../css/fx_nctouch_products_detail.css">
+</head>
+<body>
+
+<header id="header" class="transparent">
+  <div class="header-wrap">
+    <div class="header-l"> <a href="javascript:history.go(-1)"> <i class="back"></i> </a> </div>
+    <ul class="header-nav">
+      <li><a href="javascript:void(0);">商品</a></li>
+    </ul>
+  </div>
+</header>
+<div id="product_detail_html" style="position: relative; z-index: 1;"></div>
+<div id="product_detail_spec_html" class="nctouch-bottom-mask"></div>
+<div id="voucher_html" class="nctouch-bottom-mask"></div>
+<script type="text/html" id="product_detail">
+<div class="goods-detail-top">
+		<div class="goods-detail-pic" id="mySwipe">
+			<ul>
+				<li><img src="<%=goods_image%>"/></li>
+			</ul>
+		</div>
+
+<div class="goods-detail-name">
+		<dl> 
+			<dt>
+			<%=goods_name%>
+			</dt>
+			<dd><%=goods_jingle%></dd>
+		</dl>
+	</div>
+	<div class="goods-detail-price">
+		<dl>
+			<dt>￥<em><%=goods_price%></em></dt>
+		</dl>
+	</div>
+	
+	<div class="goods-detail-store">
+			<div class="store-name"><i class="icon-store"></i>
+				<%= agent_name %>
+				<span class="icon-mall">线下加盟店</span>
+			</div>
+	</div>
+	
+	<div class="goods-detail-bottom"><a href="javascript:void(0);"></a></div>
+
+	
+
+	<div class="goods-detail-foot">
+		<div class="otreh-handle">
+			<a href="fx_cart_list.html" class="cart"><i></i><p>购物车</p><span id="cart_count"></span></a>
+		</div>
+		
+		<div class="buy-handle ">
+			
+			<a href="javascript:void(0);" class="add-cart animation-up">加入购物车</a>
+			
+		</div>
+	
+</div>
+</script> 
+<script type="text/html" id="product_detail_sepc">
+<div class="nctouch-bottom-mask-bg"></div>
+<div class="nctouch-bottom-mask-block">
+	<div class="nctouch-bottom-mask-tip"><i></i>点击此处返回</div>
+	<div class="nctouch-bottom-mask-top goods-options-info">
+		<div class="goods-pic">
+		<img src="<%=goods_image%>"/>
+	</div>
+	<dl>
+		<dt><%=goods_name%></dt>
+		<dd class="goods-price">
+			￥<em><%=goods_price%></em>
+			<span class="goods-storage">库存：<%=goods_storage%>件</span>
+		</dd>
+	</dl>
+	<a href="javascript:void(0);" class="nctouch-bottom-mask-close"><i></i></a>
+</div>
+<div class="goods-option-value">购买数量
+	<div class="value-box">
+		<span class="minus">
+			<a href="javascript:void(0);">&nbsp;</a>
+		</span>
+		<span>
+			<input type="text" pattern="[0-9]*" class="buy-num" id="buynum" value="1"/>
+		</span>
+		<span class="add">
+			<a href="javascript:void(0);">&nbsp;</a>
+		</span>
+	</div>
+</div>
+<div class="goods-option-foot">
+	<div class="otreh-handle">
+		<a href="fx_cart_list.html" class="cart">
+			<i></i>
+			<p>购物车</p>
+			<span id="cart_count1"></span>
+		</a>
+	</div>
+	
+	<div class="buy-handle <%if(goods_storage == 0){%>no-buy<%}%>"">
+		<a href="javascript:void(0);" class="add-cart" id="add-cart">加入购物车</a>
+	</div>
+</div>
+</script> 
+<script type="text/javascript" src="../../js/zepto.min.js"></script> 
+<script type="text/javascript" src="../../js/config.js"></script> 
+<script type="text/javascript" src="../../js/template.js"></script> 
+<script type="text/javascript" src="../../js/swipe.js"></script> 
+<script type="text/javascript" src="../../js/fx_common.js"></script> 
+<script type="text/javascript" src="../../js/iscroll.js"></script> 
+<script type="text/javascript" src="../../js/simple-plugin.js"></script> 
+<script type="text/javascript" src="../../js/tmpl/fx_footer.js"></script> 
+<script type="text/javascript" src="../../js/fly/requestAnimationFrame.js"></script>
+<script type="text/javascript" src="../../js/fly/zepto.fly.min.js"></script>
+<script type="text/javascript" src="../../js/tmpl/fx_product_detail.js"></script>
+  <!--o2o分店地址Begin-->
+ <div id="list-address-wrapper" class="nctouch-full-mask hide">
+  <div class="nctouch-full-mask-bg"></div>
+  <div class="nctouch-full-mask-block">
+    <div class="header">
+      <div class="header-wrap">
+        <div class="header-l"> <a href="javascript:void(0);"> <i class="back"></i> </a> </div>
+        <div class="header-title">
+          <h1>商家信息</h1>
+        </div>
+      </div>
+    </div>
+    <div class="nctouch-main-layout">
+    	<div class="nctouch-o2o-tip"><a href="javascript:void(0);" id="map_all"><i></i>全部实体分店共<em></em>家<span></span></a></div>
+    	<div class="nctouch-main-layout-a" id="list-address-scroll">
+      	<ul class="nctouch-o2o-list" id="list-address-ul">
+      	</ul>
+    	</div>
+    </div>
+  </div>
+</div>
+  <!--o2o分店地址End--> 
+  <!--o2o分店地图Begin-->
+  <div id="map-wrappers" class="nctouch-full-mask hide">
+    <div class="nctouch-full-mask-bg"></div>
+    <div class="nctouch-full-mask-block">
+      <div class="header transparent">
+        <div class="header-wrap">
+          <div class="header-l"> <a href="javascript:void(0);"> <i class="back"></i> </a> </div>
+        </div>
+      </div>
+	  <div class="nctouch-map-layout">
+		<div id="baidu_map" class="nctouch-map"></div>
+	  </div>
+    </div>
+  </div>
+  <!--o2o分店地图End-->
+</body>
+</html>

@@ -1,0 +1,18 @@
+[2017-06-26 22:04:30] http://localhost/shopnc/agent/index.php?act=goods&op=market&top_code=10200&menu_code=10230 ( act=goods&op=market ) 
+ERR: Db Error: Column 'goods_state' in where clause is ambiguous
+SELECT count(*) as count FROM `nc_goods` as `goods` right join `nc_goods_common` as `goods_common` ON goods.goods_commonid=goods_common.goods_commonid  WHERE  goods_storage != 0 and goods_state != 10
+[2017-06-26 22:04:30] http://localhost/shopnc/agent/index.php?act=goods&op=market&top_code=10200&menu_code=10230 ( act=goods&op=market ) 
+ERR: Db Error: Column 'goods_state' in where clause is ambiguous
+SELECT goods.*,goods_common.goods_costprice FROM `nc_goods` as `goods` right join `nc_goods_common` as `goods_common` ON goods.goods_commonid=goods_common.goods_commonid  WHERE  goods_storage != 0 and goods_state != 10 limit 0,10
+[2017-06-26 22:05:38] http://localhost/shopnc/agent/index.php?act=goods&op=market&top_code=10200&menu_code=10230 ( act=goods&op=market ) 
+ERR: Db Error: Column 'goods_state' in where clause is ambiguous
+SELECT count(*) as count FROM `nc_goods` as `goods` right join `nc_goods_common` as `goods_common` ON goods.goods_commonid=goods_common.goods_commonid  WHERE  goods_storage != 0 and goods_state = 1
+[2017-06-26 22:05:38] http://localhost/shopnc/agent/index.php?act=goods&op=market&top_code=10200&menu_code=10230 ( act=goods&op=market ) 
+ERR: Db Error: Column 'goods_state' in where clause is ambiguous
+SELECT goods.*,goods_common.goods_costprice FROM `nc_goods` as `goods` right join `nc_goods_common` as `goods_common` ON goods.goods_commonid=goods_common.goods_commonid  WHERE  goods_storage != 0 and goods_state = 1 limit 0,10
+[2017-06-26 22:06:52] http://localhost/shopnc/agent/index.php?act=goods&op=market&top_code=10200&menu_code=10230 ( act=goods&op=market ) 
+ERR: Db Error: Column 'goods_state' in where clause is ambiguous
+SELECT count(*) as count FROM `nc_goods` as `goods` left join `nc_goods_common` as `goods_common` ON goods.goods_commonid=goods_common.goods_commonid  WHERE  goods_storage != 0 and goods_state != 10
+[2017-06-26 22:06:52] http://localhost/shopnc/agent/index.php?act=goods&op=market&top_code=10200&menu_code=10230 ( act=goods&op=market ) 
+ERR: Db Error: Column 'goods_state' in where clause is ambiguous
+SELECT goods.*,goods_common.goods_costprice FROM `nc_goods` as `goods` left join `nc_goods_common` as `goods_common` ON goods.goods_commonid=goods_common.goods_commonid  WHERE  goods_storage != 0 and goods_state != 10 limit 0,10

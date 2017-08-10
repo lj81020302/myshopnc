@@ -1,0 +1,3 @@
+[2017-06-14 01:41:12] http://localhost/shopnc/agent/index.php?act=goods&op=market&top_code=10200&menu_code=10230 ( act=goods&op=market ) 
+ERR: Db Error: Unknown column 'goods_common.goods_costprice' in 'field list'
+SELECT goods.*,goods_common.goods_costprice FROM `nc_goods` as `goods`  WHERE  goods_storage != 0 limit 0,10

@@ -1,0 +1,39 @@
+[2017-05-30 22:37:57] http://localhost/shopnc/agent/index.php?act=balance&op=balance_manage&top_code=10400&menu_code=10420 ( act=balance&op=balance_manage ) 
+ERR: Db Error: Unknown column 'fx_order_godos.order_id' in 'on clause'
+SELECT count(*) as count FROM `nc_fx_orders` as `fx_orders` left join `nc_fx_order_goods` as `fx_order_goods` ON fx_orders.order_id=fx_order_godos.order_id  WHERE  fx_orders.agent_id = '1'
+[2017-05-30 22:37:57] http://localhost/shopnc/agent/index.php?act=balance&op=balance_manage&top_code=10400&menu_code=10420 ( act=balance&op=balance_manage ) 
+ERR: Db Error: Unknown column 'fx_order_godos.order_id' in 'on clause'
+SELECT * FROM `nc_fx_orders` as `fx_orders` left join `nc_fx_order_goods` as `fx_order_goods` ON fx_orders.order_id=fx_order_godos.order_id  WHERE  fx_orders.agent_id = '1' limit 0,10
+[2017-05-30 22:45:42] http://localhost/shopnc/agent/index.php?act=balance&op=balance_manage&top_code=10400&menu_code=10420 ( act=balance&op=balance_manage ) 
+ERR: Db Error: Unknown column 'fx_order_godos.order_id' in 'on clause'
+SELECT count(*) as count FROM `nc_fx_orders` as `fx_orders` left join `nc_fx_order_goods` as `fx_order_goods` ON fx_orders.order_id=fx_order_godos.order_id  WHERE  fx_orders.agent_id = '1'
+[2017-05-30 22:45:42] http://localhost/shopnc/agent/index.php?act=balance&op=balance_manage&top_code=10400&menu_code=10420 ( act=balance&op=balance_manage ) 
+ERR: Db Error: Unknown column 'fx_order_godos.order_id' in 'on clause'
+SELECT * FROM `nc_fx_orders` as `fx_orders` left join `nc_fx_order_goods` as `fx_order_goods` ON fx_orders.order_id=fx_order_godos.order_id  WHERE  fx_orders.agent_id = '1' limit 0,10
+[2017-05-30 22:46:00] http://localhost/shopnc/agent/index.php?act=balance&op=balance_manage&top_code=10400&menu_code=10420 ( act=balance&op=balance_manage ) 
+ERR: Db Error: Unknown column 'fx_order_godos.order_id' in 'on clause'
+SELECT count(*) as count FROM `nc_fx_orders` as `fx_orders` left join `nc_fx_order_goods` as `fx_order_goods` ON fx_orders.order_id=fx_order_godos.order_id  WHERE  fx_orders.agent_id = '1'
+[2017-05-30 22:46:00] http://localhost/shopnc/agent/index.php?act=balance&op=balance_manage&top_code=10400&menu_code=10420 ( act=balance&op=balance_manage ) 
+ERR: Db Error: Unknown column 'fx_order_godos.order_id' in 'on clause'
+SELECT * FROM `nc_fx_orders` as `fx_orders` left join `nc_fx_order_goods` as `fx_order_goods` ON fx_orders.order_id=fx_order_godos.order_id  WHERE  fx_orders.agent_id = '1' limit 0,10
+[2017-05-30 22:50:31] http://localhost/shopnc/agent/index.php?act=balance&op=balance_manage&top_code=10400&menu_code=10420 ( act=balance&op=balance_manage ) 
+ERR: Db Error: Unknown column 'fx_order_godos.order_id' in 'on clause'
+SELECT count(*) as count FROM `nc_fx_orders` as `fx_orders` left join `nc_fx_order_goods` as `fx_order_goods` ON fx_orders.order_id=fx_order_godos.order_id  WHERE  fx_orders.agent_id = '1'
+[2017-05-30 22:50:31] http://localhost/shopnc/agent/index.php?act=balance&op=balance_manage&top_code=10400&menu_code=10420 ( act=balance&op=balance_manage ) 
+ERR: Db Error: Unknown column 'fx_order_godos.order_id' in 'on clause'
+SELECT * FROM `nc_fx_orders` as `fx_orders` left join `nc_fx_order_goods` as `fx_order_goods` ON fx_orders.order_id=fx_order_godos.order_id  WHERE  fx_orders.agent_id = '1' limit 0,10
+[2017-05-30 22:50:56] http://localhost/shopnc/agent/index.php?act=balance&op=balance_manage&top_code=10400&menu_code=10420 ( act=balance&op=balance_manage ) 
+ERR: Db Error: Unknown column 'fx_order_godos.order_id' in 'on clause'
+SELECT count(*) as count FROM `nc_fx_orders` as `fx_orders` left join `nc_fx_order_goods` as `fx_order_goods` ON fx_orders.order_id=fx_order_godos.order_id  WHERE  fx_orders.agent_id = '1'
+[2017-05-30 22:50:56] http://localhost/shopnc/agent/index.php?act=balance&op=balance_manage&top_code=10400&menu_code=10420 ( act=balance&op=balance_manage ) 
+ERR: Db Error: Unknown column 'fx_order_godos.order_id' in 'on clause'
+SELECT * FROM `nc_fx_orders` as `fx_orders` left join `nc_fx_order_goods` as `fx_order_goods` ON fx_orders.order_id=fx_order_godos.order_id  WHERE  fx_orders.agent_id = '1' limit 0,10
+[2017-05-30 22:51:06] http://localhost/shopnc/agent/index.php?act=balance&op=balance_manage&top_code=10400&menu_code=10420 ( act=balance&op=balance_manage ) 
+ERR: Db Error: Unknown column 'fx_order_godos.order_id' in 'on clause'
+SELECT * FROM `nc_fx_orders` as `fx_orders` left join `nc_fx_order_goods` as `fx_order_goods` ON fx_orders.order_id=fx_order_godos.order_id  WHERE  fx_orders.agent_id = '1'
+[2017-05-30 22:53:08] http://localhost/shopnc/agent/index.php?act=balance&op=balance_manage&top_code=10400&menu_code=10420 ( act=balance&op=balance_manage ) 
+ERR: Db Error: Unknown column 'fx_order_godos.order_id' in 'on clause'
+SELECT count(*) as count FROM `nc_fx_orders` as `fx_orders` left join `nc_fx_order_goods` as `fx_order_goods` ON fx_orders.order_id=fx_order_godos.order_id  WHERE  fx_orders.agent_id = '1'
+[2017-05-30 22:53:08] http://localhost/shopnc/agent/index.php?act=balance&op=balance_manage&top_code=10400&menu_code=10420 ( act=balance&op=balance_manage ) 
+ERR: Db Error: Unknown column 'fx_order_godos.order_id' in 'on clause'
+SELECT * FROM `nc_fx_orders` as `fx_orders` left join `nc_fx_order_goods` as `fx_order_goods` ON fx_orders.order_id=fx_order_godos.order_id  WHERE  fx_orders.agent_id = '1' limit 0,10

@@ -1,0 +1,57 @@
+[2017-07-01 10:55:38] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_add ( act=fx_member_cart&op=cart_add ) 
+ERR: Db Error: Column 'store_id' cannot be null
+INSERT  INTO `nc_cart` (buyer_id,store_id,goods_id,goods_name,goods_price,goods_num,goods_image,store_name,bl_id) VALUES ('7',NULL,'100004','劳力士Rolex 日志型系列 自动机械钢带男表 联保正品 116233','97800.00','1','1_04752627799921979.jpg',NULL,'0')
+[2017-07-01 10:55:45] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_add ( act=fx_member_cart&op=cart_add ) 
+ERR: Db Error: Column 'store_id' cannot be null
+INSERT  INTO `nc_cart` (buyer_id,store_id,goods_id,goods_name,goods_price,goods_num,goods_image,store_name,bl_id) VALUES ('7',NULL,'100004','劳力士Rolex 日志型系列 自动机械钢带男表 联保正品 116233','97800.00','1','1_04752627799921979.jpg',NULL,'0')
+[2017-07-01 10:56:38] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_add ( act=fx_member_cart&op=cart_add ) 
+ERR: Db Error: Table 'shopnc.nc_fx_cart' doesn't exist
+SELECT * FROM `nc_fx_cart` WHERE ( fx_goods_id = '100004' ) AND ( buyer_id = '7' ) AND ( bl_id = '0' ) LIMIT 1  
+[2017-07-01 10:56:38] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_add ( act=fx_member_cart&op=cart_add ) 
+ERR: Db Error: Table 'shopnc.nc_fx_cart' doesn't exist
+INSERT  INTO `nc_fx_cart` (buyer_id,agent_id,fx_goods_id,goods_name,goods_price,goods_num,goods_image,agent_name,bl_id) VALUES ('7','1','100004','劳力士Rolex 日志型系列 自动机械钢带男表 联保正品 116233','97800.00','1','1_04752627799921979.jpg','5115','0')
+[2017-07-01 10:56:38] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_add ( act=fx_member_cart&op=cart_add ) 
+ERR: Db Error: Table 'shopnc.nc_fx_cart' doesn't exist
+SELECT * FROM `nc_fx_cart` WHERE ( buyer_id = '7' ) LIMIT 1000  
+[2017-07-01 10:57:08] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_add ( act=fx_member_cart&op=cart_add ) 
+ERR: Db Error: Table 'shopnc.nc_fx_cart' doesn't exist
+SELECT * FROM `nc_fx_cart` WHERE ( fx_goods_id = '100004' ) AND ( buyer_id = '7' ) AND ( bl_id = '0' ) LIMIT 1  
+[2017-07-01 10:57:08] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_add ( act=fx_member_cart&op=cart_add ) 
+ERR: Db Error: Table 'shopnc.nc_fx_cart' doesn't exist
+INSERT  INTO `nc_fx_cart` (buyer_id,agent_id,fx_goods_id,goods_name,goods_price,goods_num,goods_image,agent_name,bl_id) VALUES ('7','1','100004','劳力士Rolex 日志型系列 自动机械钢带男表 联保正品 116233','97800.00','3','1_04752627799921979.jpg','5115','0')
+[2017-07-01 10:57:08] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_add ( act=fx_member_cart&op=cart_add ) 
+ERR: Db Error: Table 'shopnc.nc_fx_cart' doesn't exist
+SELECT * FROM `nc_fx_cart` WHERE ( buyer_id = '7' ) LIMIT 1000  
+[2017-07-01 10:57:28] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_add ( act=fx_member_cart&op=cart_add ) 
+ERR: Db Error: Table 'shopnc.nc_fx_cart' doesn't exist
+SELECT * FROM `nc_fx_cart` WHERE ( fx_goods_id = '100004' ) AND ( buyer_id = '7' ) AND ( bl_id = '0' ) LIMIT 1  
+[2017-07-01 10:57:28] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_add ( act=fx_member_cart&op=cart_add ) 
+ERR: Db Error: Table 'shopnc.nc_fx_cart' doesn't exist
+INSERT  INTO `nc_fx_cart` (buyer_id,agent_id,fx_goods_id,goods_name,goods_price,goods_num,goods_image,agent_name,bl_id) VALUES ('7','1','100004','劳力士Rolex 日志型系列 自动机械钢带男表 联保正品 116233','97800.00','1','1_04752627799921979.jpg','5115','0')
+[2017-07-01 10:57:28] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_add ( act=fx_member_cart&op=cart_add ) 
+ERR: Db Error: Table 'shopnc.nc_fx_cart' doesn't exist
+SELECT * FROM `nc_fx_cart` WHERE ( buyer_id = '7' ) LIMIT 1000  
+[2017-07-01 10:57:32] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_add ( act=fx_member_cart&op=cart_add ) 
+ERR: Db Error: Table 'shopnc.nc_fx_cart' doesn't exist
+SELECT * FROM `nc_fx_cart` WHERE ( fx_goods_id = '100004' ) AND ( buyer_id = '7' ) AND ( bl_id = '0' ) LIMIT 1  
+[2017-07-01 10:57:32] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_add ( act=fx_member_cart&op=cart_add ) 
+ERR: Db Error: Table 'shopnc.nc_fx_cart' doesn't exist
+INSERT  INTO `nc_fx_cart` (buyer_id,agent_id,fx_goods_id,goods_name,goods_price,goods_num,goods_image,agent_name,bl_id) VALUES ('7','1','100004','劳力士Rolex 日志型系列 自动机械钢带男表 联保正品 116233','97800.00','3','1_04752627799921979.jpg','5115','0')
+[2017-07-01 10:57:32] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_add ( act=fx_member_cart&op=cart_add ) 
+ERR: Db Error: Table 'shopnc.nc_fx_cart' doesn't exist
+SELECT * FROM `nc_fx_cart` WHERE ( buyer_id = '7' ) LIMIT 1000  
+[2017-07-01 14:54:14] /shopnc/admin/modules/agent/index.php?act=purchase_order&op=peisong ( act=purchase_order&op=peisong ) 
+ERR: Db Error: MySQL server has gone away
+SELECT goods_num,goods_id,agent_id,goods_price,goods_cost_price FROM `nc_fx_purchase_orders` as `fx_purchase_orders`  WHERE  id = '8'
+[2017-07-01 14:54:14] /shopnc/admin/modules/agent/index.php?act=purchase_order&op=peisong ( act=purchase_order&op=peisong ) 
+ERR: Db Error: MySQL server has gone away
+SELECT fx_goods_id,goods_storage FROM `nc_fx_goods` as `fx_goods`  
+[2017-07-01 14:54:14] /shopnc/admin/modules/agent/index.php?act=purchase_order&op=peisong ( act=purchase_order&op=peisong ) 
+ERR: Db Error: MySQL server has gone away
+UPDATE `nc_fx_goods` AS `fx_goods` SET fx_goods_id = '', goods_storage = '0'  WHERE  fx_goods_id = ''
+[2017-07-01 14:54:14] /shopnc/admin/modules/agent/index.php?act=purchase_order&op=peisong ( act=purchase_order&op=peisong ) 
+ERR: Db Error: MySQL server has gone away
+SELECT goods_storage FROM `nc_goods` WHERE ( goods_id = NULL ) LIMIT 1  
+[2017-07-01 19:09:51] /shopnc/mobile/index.php?act=member_cart&op=cart_count ( act=member_cart&op=cart_count ) 
+ERR: Db Error: MySQL server has gone away
+SELECT * FROM `nc_mb_user_token` WHERE ( token = '5382e4b557b87ed27374b8a75fbf7bc1' ) LIMIT 1  

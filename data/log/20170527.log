@@ -1,0 +1,42 @@
+[2017-05-27 23:48:56] http://localhost/shopnc/agent/index.php?act=goods&op=purchase_order&top_code=10200&menu_code=10240 ( act=goods&op=purchase_order ) 
+ERR: Db Error: Table 'shopnc.nc_fx_purchase_orders' doesn't exist
+SELECT count(*) as count FROM `nc_fx_purchase_orders` as `fx_purchase_orders`  WHERE  agent_id = '1'
+[2017-05-27 23:48:56] http://localhost/shopnc/agent/index.php?act=goods&op=purchase_order&top_code=10200&menu_code=10240 ( act=goods&op=purchase_order ) 
+ERR: Db Error: Table 'shopnc.nc_fx_purchase_orders' doesn't exist
+SELECT * FROM `nc_fx_purchase_orders` as `fx_purchase_orders`  WHERE  agent_id = '1' limit 0,10
+[2017-05-27 23:49:28] http://localhost/shopnc/agent/index.php?act=goods&op=purchase_order&top_code=10200&menu_code=10240 ( act=goods&op=purchase_order ) 
+ERR: Db Error: Table 'shopnc.nc_fx_purchase_orders' doesn't exist
+SELECT count(*) as count FROM `nc_fx_purchase_orders` as `fx_purchase_orders`  WHERE  agent_id = '1'
+[2017-05-27 23:49:28] http://localhost/shopnc/agent/index.php?act=goods&op=purchase_order&top_code=10200&menu_code=10240 ( act=goods&op=purchase_order ) 
+ERR: Db Error: Table 'shopnc.nc_fx_purchase_orders' doesn't exist
+SELECT * FROM `nc_fx_purchase_orders` as `fx_purchase_orders`  WHERE  agent_id = '1' limit 0,10
+[2017-05-27 23:51:15] http://localhost/shopnc/agent/index.php?act=goods&op=purchase_order&top_code=10200&menu_code=10240 ( act=goods&op=purchase_order ) 
+ERR: Db Error: Table 'shopnc.nc_fx_purchase_orders' doesn't exist
+SELECT count(*) as count FROM `nc_fx_purchase_orders` as `fx_purchase_orders`  WHERE  agent_id = '1'
+[2017-05-27 23:51:15] http://localhost/shopnc/agent/index.php?act=goods&op=purchase_order&top_code=10200&menu_code=10240 ( act=goods&op=purchase_order ) 
+ERR: Db Error: Table 'shopnc.nc_fx_purchase_orders' doesn't exist
+SELECT * FROM `nc_fx_purchase_orders` as `fx_purchase_orders`  WHERE  agent_id = '1' limit 0,10
+[2017-05-27 23:56:49] http://localhost/shopnc/agent/index.php?act=goods&op=purchase_order&top_code=10200&menu_code=10240 ( act=goods&op=purchase_order ) 
+ERR: Db Error: Table 'shopnc.nc_fx_purchase_orders' doesn't exist
+SELECT count(*) as count FROM `nc_fx_purchase_orders` as `fx_purchase_orders`  WHERE  agent_id = '1'
+[2017-05-27 23:56:49] http://localhost/shopnc/agent/index.php?act=goods&op=purchase_order&top_code=10200&menu_code=10240 ( act=goods&op=purchase_order ) 
+ERR: Db Error: Table 'shopnc.nc_fx_purchase_orders' doesn't exist
+SELECT * FROM `nc_fx_purchase_orders` as `fx_purchase_orders`  WHERE  agent_id = '1' limit 0,10
+[2017-05-27 23:58:19] http://localhost/shopnc/agent/index.php?act=goods&op=purchase_order&top_code=10200&menu_code=10240 ( act=goods&op=purchase_order ) 
+ERR: Db Error: Table 'shopnc.nc_fx_purchase_orders' doesn't exist
+SELECT count(*) as count FROM `nc_fx_purchase_orders` as `fx_purchase_orders`  WHERE  agent_id = '1'
+[2017-05-27 23:58:19] http://localhost/shopnc/agent/index.php?act=goods&op=purchase_order&top_code=10200&menu_code=10240 ( act=goods&op=purchase_order ) 
+ERR: Db Error: Table 'shopnc.nc_fx_purchase_orders' doesn't exist
+SELECT * FROM `nc_fx_purchase_orders` as `fx_purchase_orders`  WHERE  agent_id = '1' limit 0,10
+[2017-05-27 23:58:25] http://localhost/shopnc/agent/index.php?act=goods&op=purchase_order&top_code=10200&menu_code=10240 ( act=goods&op=purchase_order ) 
+ERR: Db Error: Table 'shopnc.nc_fx_purchase_orders' doesn't exist
+SELECT count(*) as count FROM `nc_fx_purchase_orders` as `fx_purchase_orders`  WHERE  agent_id = '1'
+[2017-05-27 23:58:26] http://localhost/shopnc/agent/index.php?act=goods&op=purchase_order&top_code=10200&menu_code=10240 ( act=goods&op=purchase_order ) 
+ERR: Db Error: Table 'shopnc.nc_fx_purchase_orders' doesn't exist
+SELECT * FROM `nc_fx_purchase_orders` as `fx_purchase_orders`  WHERE  agent_id = '1' limit 0,10
+[2017-05-27 23:58:33] http://localhost/shopnc/agent/index.php?act=goods&op=purchase_order&top_code=10200&menu_code=10240 ( act=goods&op=purchase_order ) 
+ERR: Db Error: Table 'shopnc.nc_fx_purchase_orders' doesn't exist
+SELECT count(*) as count FROM `nc_fx_purchase_orders` as `fx_purchase_orders`  WHERE  agent_id = '1'
+[2017-05-27 23:58:33] http://localhost/shopnc/agent/index.php?act=goods&op=purchase_order&top_code=10200&menu_code=10240 ( act=goods&op=purchase_order ) 
+ERR: Db Error: Table 'shopnc.nc_fx_purchase_orders' doesn't exist
+SELECT * FROM `nc_fx_purchase_orders` as `fx_purchase_orders`  WHERE  agent_id = '1' limit 0,10

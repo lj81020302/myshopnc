@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.member-center dt h3 i.mc-05 { background-image: url(../images/regm_r.png);}
+
+.member-center dt h3 i.mc-07 { background-image: url(../images/mc_05.png);}
+i.cc-12 { background-image: url(../images/mcc_12_b.png); background-size: cover;}
+i.cc-13 { background-image: url(../images/mcc_13.png); background-size: cover;}
+i.cc-14 { background-image: url(../images/mcc_14.png); background-size: cover;}
+
+.member-center dt h3 i.mc-06 { background-image: url(../images/mc_06.png);}
+
+.textarea { background-color: #FFF; width: 90%; height: 4rem;  line-height:0rem !important; margin: 0.5rem 2.5%; border: solid 1px #dddddd !important; font-size: 0.6rem; } 
+ 
+.goods-subtotal{width:5rem !important;} 

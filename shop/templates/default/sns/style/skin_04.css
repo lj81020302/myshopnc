@@ -1,0 +1,14 @@
+/**
+ * 定义买家中心样式
+/* ================================ */
+/* Author:			��ά��	    	*/
+/* Support Site:	www.shopnc.club	*/
+/* Retrofit Date:	Aug-08-2016		*/
+/* ================================ */
+body {
+	background-attachment: scroll;
+	background-color: #BDF4FB;
+	background-image: url(skin04/body_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center 80px;
+}

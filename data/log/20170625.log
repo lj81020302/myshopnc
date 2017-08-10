@@ -1,0 +1,30 @@
+[2017-06-25 17:03:53] http://localhost/shopnc/agent/index.php?act=goods&op=market&top_code=10200&menu_code=10230 ( act=goods&op=market ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1' at line 1
+SELECT count(*) as count FROM `nc_goods` as `goods` right join `nc_goods_common` as `goods_common` ON goods.goods_commonid=goods_common.goods_commonid  WHERE  goods_storage != 0 and goods_state != '1
+[2017-06-25 17:03:53] http://localhost/shopnc/agent/index.php?act=goods&op=market&top_code=10200&menu_code=10230 ( act=goods&op=market ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1 limit 0,10' at line 1
+SELECT goods.*,goods_common.goods_costprice FROM `nc_goods` as `goods` right join `nc_goods_common` as `goods_common` ON goods.goods_commonid=goods_common.goods_commonid  WHERE  goods_storage != 0 and goods_state != '1 limit 0,10
+[2017-06-25 17:05:58] http://localhost/shopnc/agent/index.php?act=goods&op=market&top_code=10200&menu_code=10230 ( act=goods&op=market ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10' at line 1
+SELECT count(*) as count FROM `nc_goods` as `goods` right join `nc_goods_common` as `goods_common` ON goods.goods_commonid=goods_common.goods_commonid  WHERE  goods_storage != 0 and goods_state != '10
+[2017-06-25 17:05:58] http://localhost/shopnc/agent/index.php?act=goods&op=market&top_code=10200&menu_code=10230 ( act=goods&op=market ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10 limit 0,10' at line 1
+SELECT goods.*,goods_common.goods_costprice FROM `nc_goods` as `goods` right join `nc_goods_common` as `goods_common` ON goods.goods_commonid=goods_common.goods_commonid  WHERE  goods_storage != 0 and goods_state != '10 limit 0,10
+[2017-06-25 17:53:15] http://localhost/shopnc/agent/index.php?act=goods&op=market&top_code=10200&menu_code=10230 ( act=goods&op=market ) 
+ERR: Db Error: Column 'goods_state' in where clause is ambiguous
+SELECT count(*) as count FROM `nc_goods` as `goods` right join `nc_goods_common` as `goods_common` ON goods.goods_commonid=goods_common.goods_commonid  WHERE  goods_storage != 0 and goods_state != 10
+[2017-06-25 17:53:15] http://localhost/shopnc/agent/index.php?act=goods&op=market&top_code=10200&menu_code=10230 ( act=goods&op=market ) 
+ERR: Db Error: Column 'goods_state' in where clause is ambiguous
+SELECT goods.*,goods_common.goods_costprice FROM `nc_goods` as `goods` right join `nc_goods_common` as `goods_common` ON goods.goods_commonid=goods_common.goods_commonid  WHERE  goods_storage != 0 and goods_state != 10 limit 0,10
+[2017-06-25 21:39:37] http://localhost/shopnc/agent/index.php?act=goods&op=market&top_code=10200&menu_code=10230 ( act=goods&op=market ) 
+ERR: Db Error: Column 'goods_state' in where clause is ambiguous
+SELECT count(*) as count FROM `nc_goods` as `goods` right join `nc_goods_common` as `goods_common` ON goods.goods_commonid=goods_common.goods_commonid  WHERE  goods_storage != 0 and goods_state != 10
+[2017-06-25 21:39:37] http://localhost/shopnc/agent/index.php?act=goods&op=market&top_code=10200&menu_code=10230 ( act=goods&op=market ) 
+ERR: Db Error: Column 'goods_state' in where clause is ambiguous
+SELECT goods.*,goods_common.goods_costprice FROM `nc_goods` as `goods` right join `nc_goods_common` as `goods_common` ON goods.goods_commonid=goods_common.goods_commonid  WHERE  goods_storage != 0 and goods_state != 10 limit 0,10
+[2017-06-25 21:41:27] http://localhost/shopnc/agent/index.php?act=goods&op=market&top_code=10200&menu_code=10230 ( act=goods&op=market ) 
+ERR: Db Error: Column 'goods_state' in where clause is ambiguous
+SELECT count(*) as count FROM `nc_goods` as `goods` right join `nc_goods_common` as `goods_common` ON goods.goods_commonid=goods_common.goods_commonid  WHERE  goods_storage != 0 and goods_state != 10
+[2017-06-25 21:41:27] http://localhost/shopnc/agent/index.php?act=goods&op=market&top_code=10200&menu_code=10230 ( act=goods&op=market ) 
+ERR: Db Error: Column 'goods_state' in where clause is ambiguous
+SELECT goods.*,goods_common.goods_costprice FROM `nc_goods` as `goods` right join `nc_goods_common` as `goods_common` ON goods.goods_commonid=goods_common.goods_commonid  WHERE  goods_storage != 0 and goods_state != 10 limit 0,10

@@ -1,0 +1,714 @@
+[2017-06-01 00:18:02] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-05-31'' at line 1
+SELECT sum(money) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-05-31'
+[2017-06-01 00:18:02] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-05-30'' at line 1
+SELECT sum(money) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-05-30'
+[2017-06-01 00:18:02] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-05-29'' at line 1
+SELECT sum(money) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-05-29'
+[2017-06-01 00:18:02] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-05-28'' at line 1
+SELECT sum(money) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-05-28'
+[2017-06-01 00:18:02] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-05-27'' at line 1
+SELECT sum(money) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-05-27'
+[2017-06-01 00:18:02] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-05-26'' at line 1
+SELECT sum(money) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-05-26'
+[2017-06-01 00:18:03] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-05-25'' at line 1
+SELECT sum(money) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-05-25'
+[2017-06-01 00:20:47] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-05-31'' at line 1
+SELECT sum(money) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-05-31'
+[2017-06-01 00:20:47] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-05-30'' at line 1
+SELECT sum(money) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-05-30'
+[2017-06-01 00:20:47] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-05-29'' at line 1
+SELECT sum(money) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-05-29'
+[2017-06-01 00:20:47] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-05-28'' at line 1
+SELECT sum(money) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-05-28'
+[2017-06-01 00:20:47] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-05-27'' at line 1
+SELECT sum(money) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-05-27'
+[2017-06-01 00:20:47] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-05-26'' at line 1
+SELECT sum(money) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-05-26'
+[2017-06-01 00:20:48] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-05-25'' at line 1
+SELECT sum(money) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-05-25'
+[2017-06-01 00:21:27] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-05-31'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-05-31'
+[2017-06-01 00:21:27] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-05-30'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-05-30'
+[2017-06-01 00:21:27] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-05-29'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-05-29'
+[2017-06-01 00:21:27] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-05-28'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-05-28'
+[2017-06-01 00:21:28] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-05-27'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-05-27'
+[2017-06-01 00:21:28] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-05-26'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-05-26'
+[2017-06-01 00:21:28] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-05-25'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-05-25'
+[2017-06-01 00:21:41] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 00'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 00'
+[2017-06-01 00:21:41] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 01'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 01'
+[2017-06-01 00:21:41] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 02'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 02'
+[2017-06-01 00:21:41] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 03'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 03'
+[2017-06-01 00:21:41] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 04'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 04'
+[2017-06-01 00:21:41] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 05'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 05'
+[2017-06-01 00:21:41] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 06'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 06'
+[2017-06-01 00:21:41] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 07'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 07'
+[2017-06-01 00:21:41] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 08'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 08'
+[2017-06-01 00:21:41] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 09'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 09'
+[2017-06-01 00:21:41] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 10'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 10'
+[2017-06-01 00:21:42] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 11'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 11'
+[2017-06-01 00:21:42] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 12'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 12'
+[2017-06-01 00:21:42] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 13'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 13'
+[2017-06-01 00:21:42] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 14'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 14'
+[2017-06-01 00:21:42] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 15'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 15'
+[2017-06-01 00:21:42] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 16'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 16'
+[2017-06-01 00:21:42] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 17'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 17'
+[2017-06-01 00:21:42] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 18'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 18'
+[2017-06-01 00:21:42] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 19'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 19'
+[2017-06-01 00:21:42] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 20'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 20'
+[2017-06-01 00:21:42] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 21'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 21'
+[2017-06-01 00:21:42] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 22'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 22'
+[2017-06-01 00:21:42] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 23'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 23'
+[2017-06-01 00:22:19] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 00'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 00'
+[2017-06-01 00:22:19] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 01'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 01'
+[2017-06-01 00:22:19] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 02'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 02'
+[2017-06-01 00:22:20] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 03'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 03'
+[2017-06-01 00:22:20] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 04'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 04'
+[2017-06-01 00:22:20] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 05'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 05'
+[2017-06-01 00:22:20] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 06'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 06'
+[2017-06-01 00:22:20] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 07'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 07'
+[2017-06-01 00:22:20] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 08'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 08'
+[2017-06-01 00:22:20] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 09'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 09'
+[2017-06-01 00:22:20] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 10'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 10'
+[2017-06-01 00:22:20] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 11'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 11'
+[2017-06-01 00:22:20] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 12'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 12'
+[2017-06-01 00:22:20] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 13'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 13'
+[2017-06-01 00:22:20] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 14'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 14'
+[2017-06-01 00:22:20] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 15'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 15'
+[2017-06-01 00:22:20] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 16'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 16'
+[2017-06-01 00:22:20] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 17'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 17'
+[2017-06-01 00:22:20] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 18'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 18'
+[2017-06-01 00:22:20] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 19'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 19'
+[2017-06-01 00:22:20] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 20'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 20'
+[2017-06-01 00:22:20] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 21'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 21'
+[2017-06-01 00:22:20] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 22'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 22'
+[2017-06-01 00:22:21] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 23'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 23'
+[2017-06-01 00:22:57] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 00'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 00'
+[2017-06-01 00:22:57] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 01'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 01'
+[2017-06-01 00:22:57] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 02'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 02'
+[2017-06-01 00:22:57] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 03'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 03'
+[2017-06-01 00:22:57] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 04'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 04'
+[2017-06-01 00:22:57] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 05'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 05'
+[2017-06-01 00:22:57] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 06'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 06'
+[2017-06-01 00:22:57] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 07'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 07'
+[2017-06-01 00:22:57] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 08'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 08'
+[2017-06-01 00:22:57] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 09'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 09'
+[2017-06-01 00:22:57] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 10'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 10'
+[2017-06-01 00:22:57] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 11'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 11'
+[2017-06-01 00:22:58] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 12'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 12'
+[2017-06-01 00:22:58] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 13'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 13'
+[2017-06-01 00:22:58] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 14'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 14'
+[2017-06-01 00:22:58] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 15'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 15'
+[2017-06-01 00:22:58] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 16'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 16'
+[2017-06-01 00:22:58] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 17'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 17'
+[2017-06-01 00:22:58] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 18'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 18'
+[2017-06-01 00:22:58] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 19'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 19'
+[2017-06-01 00:22:58] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 20'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 20'
+[2017-06-01 00:22:58] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 21'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 21'
+[2017-06-01 00:22:58] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 22'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 22'
+[2017-06-01 00:22:58] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 23'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 23'
+[2017-06-01 00:24:06] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 00'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 00'
+[2017-06-01 00:24:06] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 01'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 01'
+[2017-06-01 00:24:06] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 02'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 02'
+[2017-06-01 00:24:06] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 03'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 03'
+[2017-06-01 00:24:06] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 04'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 04'
+[2017-06-01 00:24:06] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 05'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 05'
+[2017-06-01 00:24:06] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 06'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 06'
+[2017-06-01 00:24:06] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 07'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 07'
+[2017-06-01 00:24:06] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 08'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 08'
+[2017-06-01 00:24:06] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 09'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 09'
+[2017-06-01 00:24:06] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 10'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 10'
+[2017-06-01 00:24:06] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 11'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 11'
+[2017-06-01 00:24:06] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 12'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 12'
+[2017-06-01 00:24:06] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 13'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 13'
+[2017-06-01 00:24:06] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 14'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 14'
+[2017-06-01 00:24:06] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 15'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 15'
+[2017-06-01 00:24:07] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 16'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 16'
+[2017-06-01 00:24:07] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 17'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 17'
+[2017-06-01 00:24:07] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 18'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 18'
+[2017-06-01 00:24:07] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 19'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 19'
+[2017-06-01 00:24:07] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 20'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 20'
+[2017-06-01 00:24:07] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 21'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 21'
+[2017-06-01 00:24:07] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 22'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 22'
+[2017-06-01 00:24:07] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 23'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 23'
+[2017-06-01 00:24:44] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 00'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 00'
+[2017-06-01 00:24:44] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 01'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 01'
+[2017-06-01 00:24:44] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 02'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 02'
+[2017-06-01 00:24:44] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 03'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 03'
+[2017-06-01 00:24:44] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 04'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 04'
+[2017-06-01 00:24:44] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 05'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 05'
+[2017-06-01 00:24:44] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 06'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 06'
+[2017-06-01 00:24:44] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 07'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 07'
+[2017-06-01 00:24:45] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 08'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 08'
+[2017-06-01 00:24:45] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 09'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 09'
+[2017-06-01 00:24:45] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 10'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 10'
+[2017-06-01 00:24:45] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 11'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 11'
+[2017-06-01 00:24:45] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 12'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 12'
+[2017-06-01 00:24:45] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 13'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 13'
+[2017-06-01 00:24:45] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 14'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 14'
+[2017-06-01 00:24:45] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 15'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 15'
+[2017-06-01 00:24:45] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 16'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 16'
+[2017-06-01 00:24:45] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 17'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 17'
+[2017-06-01 00:24:45] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 18'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 18'
+[2017-06-01 00:24:45] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 19'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 19'
+[2017-06-01 00:24:45] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 20'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 20'
+[2017-06-01 00:24:46] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 21'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 21'
+[2017-06-01 00:24:46] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 22'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 22'
+[2017-06-01 00:24:46] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d') = '2017-06-01 23'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d') = '2017-06-01 23'
+[2017-06-01 00:26:48] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 00'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 00'
+[2017-06-01 00:26:48] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 01'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 01'
+[2017-06-01 00:26:48] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 02'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 02'
+[2017-06-01 00:26:48] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 03'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 03'
+[2017-06-01 00:26:48] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 04'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 04'
+[2017-06-01 00:26:49] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 05'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 05'
+[2017-06-01 00:26:49] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 06'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 06'
+[2017-06-01 00:26:49] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 07'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 07'
+[2017-06-01 00:26:49] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 08'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 08'
+[2017-06-01 00:26:49] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 09'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 09'
+[2017-06-01 00:26:49] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 10'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 10'
+[2017-06-01 00:26:49] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 11'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 11'
+[2017-06-01 00:26:49] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 12'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 12'
+[2017-06-01 00:26:49] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 13'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 13'
+[2017-06-01 00:26:49] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 14'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 14'
+[2017-06-01 00:26:49] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 15'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 15'
+[2017-06-01 00:26:49] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 16'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 16'
+[2017-06-01 00:26:49] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 17'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 17'
+[2017-06-01 00:26:49] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 18'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 18'
+[2017-06-01 00:26:49] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 19'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 19'
+[2017-06-01 00:26:49] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 20'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 20'
+[2017-06-01 00:26:49] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 21'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 21'
+[2017-06-01 00:26:49] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 22'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 22'
+[2017-06-01 00:26:49] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 23'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 23'
+[2017-06-01 00:27:32] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 00'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 00'
+[2017-06-01 00:27:32] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 01'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 01'
+[2017-06-01 00:27:32] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 02'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 02'
+[2017-06-01 00:27:32] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 03'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 03'
+[2017-06-01 00:27:32] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 04'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 04'
+[2017-06-01 00:27:32] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 05'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 05'
+[2017-06-01 00:27:32] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 06'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 06'
+[2017-06-01 00:27:32] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 07'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 07'
+[2017-06-01 00:27:32] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 08'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 08'
+[2017-06-01 00:27:32] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 09'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 09'
+[2017-06-01 00:27:32] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 10'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 10'
+[2017-06-01 00:27:32] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 11'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 11'
+[2017-06-01 00:27:32] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 12'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 12'
+[2017-06-01 00:27:32] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 13'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 13'
+[2017-06-01 00:27:32] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 14'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 14'
+[2017-06-01 00:27:32] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 15'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 15'
+[2017-06-01 00:27:32] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 16'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 16'
+[2017-06-01 00:27:32] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 17'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 17'
+[2017-06-01 00:27:32] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 18'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 18'
+[2017-06-01 00:27:32] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 19'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 19'
+[2017-06-01 00:27:33] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 20'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 20'
+[2017-06-01 00:27:33] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 21'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 21'
+[2017-06-01 00:27:33] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 22'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 22'
+[2017-06-01 00:27:33] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 23'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 23'
+[2017-06-01 00:29:39] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 00'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 00'
+[2017-06-01 00:29:39] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 01'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 01'
+[2017-06-01 00:29:39] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 02'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 02'
+[2017-06-01 00:29:39] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 03'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 03'
+[2017-06-01 00:29:39] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 04'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 04'
+[2017-06-01 00:29:39] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 05'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 05'
+[2017-06-01 00:29:39] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 06'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 06'
+[2017-06-01 00:29:39] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 07'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 07'
+[2017-06-01 00:29:39] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 08'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 08'
+[2017-06-01 00:29:39] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 09'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 09'
+[2017-06-01 00:29:39] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 10'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 10'
+[2017-06-01 00:29:39] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 11'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 11'
+[2017-06-01 00:29:39] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 12'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 12'
+[2017-06-01 00:29:39] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 13'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 13'
+[2017-06-01 00:29:39] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 14'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 14'
+[2017-06-01 00:29:39] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 15'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 15'
+[2017-06-01 00:29:40] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 16'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 16'
+[2017-06-01 00:29:40] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 17'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 17'
+[2017-06-01 00:29:40] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 18'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 18'
+[2017-06-01 00:29:40] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 19'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 19'
+[2017-06-01 00:29:40] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 20'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 20'
+[2017-06-01 00:29:40] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 21'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 21'
+[2017-06-01 00:29:40] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 22'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 22'
+[2017-06-01 00:29:40] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 23'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 23'
+[2017-06-01 00:32:05] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 00'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 00'
+[2017-06-01 00:32:14] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 00'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 00'
+[2017-06-01 00:32:14] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 01'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 01'
+[2017-06-01 00:32:14] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 02'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 02'
+[2017-06-01 00:32:14] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 03'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 03'
+[2017-06-01 00:32:14] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 04'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 04'
+[2017-06-01 00:32:14] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 05'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 05'
+[2017-06-01 00:32:14] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 06'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 06'
+[2017-06-01 00:32:14] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 07'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 07'
+[2017-06-01 00:32:14] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 08'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 08'
+[2017-06-01 00:32:14] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 09'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 09'
+[2017-06-01 00:32:14] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 10'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 10'
+[2017-06-01 00:32:14] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 11'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 11'
+[2017-06-01 00:32:14] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 12'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 12'
+[2017-06-01 00:32:14] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 13'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 13'
+[2017-06-01 00:32:14] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 14'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 14'
+[2017-06-01 00:32:14] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 15'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 15'
+[2017-06-01 00:32:14] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 16'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 16'
+[2017-06-01 00:32:15] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 17'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 17'
+[2017-06-01 00:32:15] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 18'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 18'
+[2017-06-01 00:32:15] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 19'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 19'
+[2017-06-01 00:32:15] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 20'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 20'
+[2017-06-01 00:32:15] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 21'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 21'
+[2017-06-01 00:32:15] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 22'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 22'
+[2017-06-01 00:32:15] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%m-%d %H') = '2017-06-01 23'' at line 1
+SELECT IFNULL(SUM(money),0) FROM `nc_fx_commission` as `fx_commission`  WHERE  STR_TO_DATE(FROM_UNIXTIME(create_time), ''%Y-%m-%d %H') = '2017-06-01 23'

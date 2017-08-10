@@ -1,0 +1,682 @@
+<link href="http://www.jiutianxiannv.com/cms/templates/cms_special.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="http://www.jiutianxiannv.com/data/resource/js/jcarousel/jquery.jcarousel.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="http://www.jiutianxiannv.com/data/resource/js/slidesjs/jquery.slides.min.js" charset="utf-8"></script>
+<link href="http://www.jiutianxiannv.com/data/resource/js/jcarousel/skins/personal/skin.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+$(document).ready(function() {
+    if($('#index1_1_1_content').children().length > 0) {
+        $('#index1_1_1_content').slidesjs({
+            play: {
+                active: true,
+                    interval: 5000,
+                    auto: true,
+                    pauseOnHover: false,
+                    restartDelay: 2500
+            },
+            callback: {
+                complete: function(number) {
+                    var $item = $(".slidesjs-pagination-item");
+                    $item.removeClass("current");
+                    $item.eq(number - 1).addClass("current");
+                }
+            },
+                width: 380,
+                height: 260
+        });
+        $(".slidesjs-pagination-item").eq(0).addClass("current");
+    }
+
+    //图片延迟加载
+    $(".lazyload_container").nc_lazyload_init();
+    $("img").nc_lazyload();
+
+    //计算自定义块高度
+    var frames = $('.cms-module-frame');
+    $.each(frames, function(index, frame) {
+        var boxs = $(frame).find('[nctype="cms_module_content"]');
+        var height = 0;
+        $.each(boxs, function(index2, box) {
+            var box_height = $(box).height();
+            if(box_height > height) {
+                height = box_height;
+            }
+        });
+        boxs.height(height);
+    });
+});
+</script>
+<textarea class="lazyload_container" rows="10" cols="30" style="display:none;">
+<div class="cms-index-module-article1 module-style-style1">
+  <div class="cms-index-module-article-title"> 
+    <!-- 标题 -->
+    <div class="cms-index-module-article-title-left">
+      <h2 id="article1_title" nctype="object_module_edit">热门报道</h2>
+          </div>
+    <!-- 标签 -->
+    <div class="cms-index-module-article-title-right">
+      <ul id="article1_tag" nctype="object_module_edit">
+              </ul>
+          </div>
+  </div>
+  <div class="clear"></div>
+  <div class="cms-index-module-article1-1"> 
+    <!-- 封面图 -->
+    <div class="article1-1-1-contnet">
+      <ul id="article1_image" nctype="object_module_edit">
+        <li class="picture"><div class="cms-thumb"><a href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=12" target="_blank"><img style="top: 0px;" class="t-img" alt="" src="http://www.jiutianxiannv.com/data/upload/cms/index/05482678187092073.jpg" data-image-name="05482678187092073.jpg"></a></div></li>      </ul>
+          </div>
+    <!-- 文章　-->
+    <div class="cms-index-module-article1-1-2">
+      <div class="title-bar">
+        <h3 id="article1_1_2_title" nctype="object_module_edit">最新资讯</h3>
+              </div>
+      <div class="content-box">
+        <ul id="article1_1_2_content" nctype="object_module_edit">
+          <li><span class="cms-index-count_1" nctype="article_view">1</span>
+        
+        <span class="title">
+            
+            <a href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=13" target="_blank" nctype="article_item" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png" article_publish_time="2017-05-16" article_click="4" article_abstract="" class_name="资讯">
+                “一带一路”机遇下——品牌日托起酒企业再发展！            </a>
+            
+        </span>
+        
+        
+        <span class="cms-index-click-count" nctype="article_view">4人关注</span></li><li><span class="cms-index-count_2" nctype="article_view">2</span>
+        
+        <span class="title">
+            
+            <a href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=17" target="_blank" nctype="article_item" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png" article_publish_time="2017-05-20" article_click="3" article_abstract="" class_name="资讯">
+                酒天仙女亮相糖酒会，为传统酒市场转型提供解决方案            </a>
+            
+        </span>
+        
+        
+        <span class="cms-index-click-count" nctype="article_view">3人关注</span></li><li><span class="cms-index-count_3" nctype="article_view">3</span>
+        
+        <span class="title">
+            
+            <a href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=16" target="_blank" nctype="article_item" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png" article_publish_time="2017-05-17" article_click="6" article_abstract="" class_name="资讯">
+                酒天仙女网与山西杏花香酒厂达成合作伙伴关系！            </a>
+            
+        </span>
+        
+        
+        <span class="cms-index-click-count" nctype="article_view">6人关注</span></li>        </ul>
+              </div>
+    </div>
+  </div>
+  <!-- 文章　-->
+  <div class="cms-index-module-article1-2">
+    <div class="title-bar">
+      <h3 id="article1_2_title" nctype="object_module_edit">新闻资讯!</h3>
+          </div>
+    <div class="content-box">
+      <ul id="article1_2_1_content" nctype="object_module_edit">
+        <li class="cms-index-article-focus">
+        
+        <span class="title">
+            
+            <a href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=6" target="_blank" nctype="article_item" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png" article_publish_time="2017-05-03" article_click="6" article_abstract="2016年，中国零售业告别了高速增长的黄金十年，整个传统零售业呈现增速放缓、利润下降的趋势，快消品行业正面临颠覆性变革，企业该如何应对？" class_name="资讯">
+                酒天仙女网全面升级，隆重上线            </a>
+            
+        </span>
+        
+        
+        </li><li class="cms-index-article-normal"><span class="cms-index-article-class" nctype="article_view">资讯</span>
+        
+        <span class="title">
+            
+            <a href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=1" target="_blank" nctype="article_item" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png" article_publish_time="2017-05-04" article_click="12" article_abstract="酒天仙女网，经过近年来的高速发展，酒天仙女网成为中国最大的酒类电子商务综合服务平台，并赢得众多专业投资机构的青睐，主要从事国际国内知名品牌、地方畅销品牌以及进口优秀品牌等酒类商品线上零售，同时为酒企提供电子商务综合服务，经营范围包括白酒、葡萄酒、洋酒、保健酒、啤酒等。" class_name="资讯">
+                酒天仙女网            </a>
+            
+        </span>
+        
+        
+        <span class="cms-index-article-date" nctype="article_view">04日</span></li><li class="cms-index-article-normal"><span class="cms-index-article-class" nctype="article_view">资讯</span>
+        
+        <span class="title">
+            
+            <a href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=12" target="_blank" nctype="article_item" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png" article_publish_time="2017-05-13" article_click="17" article_abstract="" class_name="资讯">
+                酒天仙女网高层研讨上线事宜            </a>
+            
+        </span>
+        
+        
+        <span class="cms-index-article-date" nctype="article_view">13日</span></li>      </ul>
+          </div>
+    <div class="content-box">
+      <ul id="article1_2_2_content" nctype="object_module_edit">
+        <li style="left: 0px; top: 0px; position: relative;" class="cms-index-article-focus">
+        
+        <span class="title">
+            
+            <a href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=17" target="_blank" nctype="article_item" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png" article_publish_time="2017-05-20" article_click="3" article_abstract="" class_name="资讯">
+                酒天仙女亮相糖酒会，为传统酒市场转型提供解决方案            </a>
+            
+        </span>
+        
+        
+        </li><li class="cms-index-article-normal"><span nctype="article_view" class="cms-index-article-class">资讯</span>
+        
+        <span class="title">
+            
+            <a href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=18" target="_blank" nctype="article_item" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png" article_publish_time="2017-05-20" article_click="5" article_abstract="" class_name="资讯">
+                智利中央山谷美奥干红葡萄酒            </a>
+            
+        </span>
+        
+        
+        <span nctype="article_view" class="cms-index-article-date">20日</span></li><li class="cms-index-article-normal"><span nctype="article_view" class="cms-index-article-class">资讯</span>
+        
+        <span class="title">
+            
+            <a href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=15" target="_blank" nctype="article_item" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png" article_publish_time="2017-05-17" article_click="5" article_abstract="" class_name="资讯">
+                酒天仙女网组织员工进行环保植树春游活动！            </a>
+            
+        </span>
+        
+        
+        <span nctype="article_view" class="cms-index-article-date">17日</span></li><li class="cms-index-article-normal"><span nctype="article_view" class="cms-index-article-class">资讯</span>
+        
+        <span class="title">
+            
+            <a href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=16" target="_blank" nctype="article_item" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png" article_publish_time="2017-05-17" article_click="6" article_abstract="" class_name="资讯">
+                酒天仙女网与山西杏花香酒厂达成合作伙伴关系！            </a>
+            
+        </span>
+        
+        
+        <span nctype="article_view" class="cms-index-article-date">17日</span></li><li class="cms-index-article-normal"><span nctype="article_view" class="cms-index-article-class">资讯</span>
+        
+        <span class="title">
+            
+            <a nctype="article_item" href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=19" target="_blank" class_name="资讯" article_abstract="" article_click="0" article_publish_time="2017-05-23" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png">
+                白酒是放得越久越好吗？            </a>
+            
+        </span>
+        
+        
+        <span nctype="article_view" class="cms-index-article-date">23日</span></li><li class="cms-index-article-normal"><span nctype="article_view" class="cms-index-article-class">资讯</span>
+        
+        <span class="title">
+            
+            <a nctype="article_item" href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=20" target="_blank" class_name="资讯" article_abstract="" article_click="0" article_publish_time="2017-05-23" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png">
+                45°本色佳酿30年 清香型（优级）500ml            </a>
+            
+        </span>
+        
+        
+        <span nctype="article_view" class="cms-index-article-date">23日</span></li>      </ul>
+          </div>
+  </div>
+  <!-- 商品　-->
+  <div class="cms-index-module-article1-3">
+    <div class="title-bar">
+      <h3 id="article1_3_title" nctype="object_module_edit">推荐商品</h3>
+          </div>
+    <div class="content-box">
+      <ul id="article1_3_content" nctype="object_module_edit">
+        <li nctype="btn_goods_select"><dl><dt class="name"><a href="http://www.jiutianxiannv.com/shop/index.php?act=goods&goods_id=100132" target="_blank">德莱斯干红葡萄酒</a></dt><dd class="cms-thumb" title="德莱斯干红葡萄酒"><a href="http://www.jiutianxiannv.com/shop/index.php?act=goods&goods_id=100132" target="_blank"><img style="left: 0px; top: 0px; width: 78px; height: 78px;" class="t-img" src="http://www.jiutianxiannv.com/data/upload/shop/store/goods/18/2017/05/12/18_05479099257561226_240.jpg"></a></dd><dd class="price"><em>299.00</em></dd></dl></li>      <li nctype="btn_goods_select"><dl><dt class="name"><a href="http://www.jiutianxiannv.com/shop/index.php?act=goods&op=index&goods_id=100023" target="_blank">西班牙胡米亚守护骑士丹魄干红葡萄酒 750ml</a></dt><dd class="cms-thumb" title="西班牙胡米亚守护骑士丹魄干红葡萄酒 750ml"><a href="http://www.jiutianxiannv.com/shop/index.php?act=goods&op=index&goods_id=100023" target="_blank"><img style="left: 0px; top: 0px; width: 78px; height: 78px;" class="t-img" src="http://www.jiutianxiannv.com/data/upload/shop/store/goods/1/2017/04/01/1_05443731505749388_240.jpg"></a></dd><dd class="price"><em>98.00</em></dd></dl></li><li nctype="btn_goods_select"><dl><dt class="name"><a href="http://www.jiutianxiannv.com/shop/index.php?act=goods&op=index&goods_id=100116" target="_blank">小白甜礼盒套装</a></dt><dd class="cms-thumb" title="小白甜礼盒套装"><a href="http://www.jiutianxiannv.com/shop/index.php?act=goods&op=index&goods_id=100116" target="_blank"><img style="left: 0px; top: 0px; width: 78px; height: 78px;" class="t-img" src="http://www.jiutianxiannv.com/data/upload/shop/store/goods/12/2017/05/08/12_05475781680844885_240.jpg"></a></dd><dd class="price"><em>128.00</em></dd></dl></li><li nctype="btn_goods_select"><dl><dt class="name"><a href="http://www.jiutianxiannv.com/shop/index.php?act=goods&op=index&goods_id=100090" target="_blank">42°珍品原 清香至尊  475ml</a></dt><dd class="cms-thumb" title="42°珍品原 清香至尊  475ml"><a href="http://www.jiutianxiannv.com/shop/index.php?act=goods&op=index&goods_id=100090" target="_blank"><img style="left: 0px; top: 0px; width: 78px; height: 78px;" class="t-img" src="http://www.jiutianxiannv.com/data/upload/shop/store/goods/1/2017/05/04/1_05472321835530039_240.jpg"></a></dd><dd class="price"><em>98.00</em></dd></dl></li>      <li nctype="btn_goods_select"><dl><dt class="name"><a href="http://www.jiutianxiannv.com/shop/index.php?act=goods&op=index&goods_id=100044" target="_blank">45°本色佳酿30年 清香型（优级）500ml</a></dt><dd class="cms-thumb" title="45°本色佳酿30年 清香型（优级）500ml"><a href="http://www.jiutianxiannv.com/shop/index.php?act=goods&op=index&goods_id=100044" target="_blank"><img src="http://www.jiutianxiannv.com/data/upload/shop/store/goods/1/2017/04/21/1_05461039925375796_240.jpg" class="t-img" style="height: 78px; width: 78px; top: 0px;"></a></dd><dd class="price"><em>340.00</em></dd></dl></li><li nctype="btn_goods_select"><dl><dt class="name"><a href="http://www.jiutianxiannv.com/shop/index.php?act=goods&op=index&goods_id=100042" target="_blank">42°金鳗酒 清香型 500ml</a></dt><dd class="cms-thumb" title="42°金鳗酒 清香型 500ml"><a href="http://www.jiutianxiannv.com/shop/index.php?act=goods&op=index&goods_id=100042" target="_blank"><img src="http://www.jiutianxiannv.com/data/upload/shop/store/goods/1/2017/04/21/1_05461051589284300_240.jpg" class="t-img" style="height: 78px; width: 78px; top: 0px;"></a></dd><dd class="price"><em>100.00</em></dd></dl></li>      </ul>
+          </div>
+  </div>
+  <div class="clear"></div>
+</div>
+</textarea>
+<div class="cms-index-module-index1 module-style-style1">
+  <div class="cms-index-module-index1-1"> 
+    <!-- 封面图 -->
+    <div class="index1-1-1-content">
+        <div class="index1-1-1-content-ul-wrap">
+            <ul id="index1_1_1_content" style="height:260px;" nctype="object_module_edit">
+                <li class="picture"><div class="cms-thumb"><a href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=17" target="_blank"><img data-image-name="05490237387404735.jpg" src="http://www.jiutianxiannv.com/data/upload/cms/index/05490237387404735.jpg" alt="" class="t-img"></a></div></li>            </ul>
+        </div>
+            </div>
+    <!-- 圈子|专题 -->
+    <div class="cms-index-module-index1-1-2">
+        <div id="index1_1_2_content" class="index1-1-2-content" nctype="object_module_edit"> <li class="picture"><div class="cms-thumb"><a href="http://www.jiutianxiannv.com/cms/index.php?act=picture&op=picture_detail&picture_id=4" target="_blank"><img data-image-name="05490232466462561.jpg" src="http://www.jiutianxiannv.com/data/upload/cms/index/05490232466462561.jpg" alt="" class="t-img"></a></div></li> </div>
+              </div>
+  </div>
+  <!-- 文章　-->
+  <div class="cms-index-module-index1-2">
+    <div class="cms-index-module-index1-2-1">
+      <div class="title-bar">
+        <h3 id="index1_2_1_title" nctype="object_module_edit">酒界新闻</h3>
+              </div>
+      <div class="content-box content-big">
+        <ul id="index1_2_1_1_content" nctype="object_module_edit">
+          <li>
+        
+        <span class="title">
+            
+            <a nctype="article_item" href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=12" target="_blank" class_name="资讯" article_abstract="" article_click="30" article_publish_time="2017-05-13" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png">
+                酒天仙女网高层研讨上线事宜            </a>
+            
+        </span>
+        
+        
+        <span nctype="article_view" class="cms-index-article-abstract"></span></li>        </ul>
+              </div>
+      <div class="content-box content-recommand">
+        <ul id="index1_2_1_2_content" nctype="object_module_edit">
+          <li class="cms-index-article-normal">
+        
+        <span class="title">
+            
+            <a nctype="article_item" href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=15" target="_blank" class_name="资讯" article_abstract="" article_click="5" article_publish_time="2017-05-17" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png">
+                酒天仙女网组织员工进行环保植树春游活动！            </a>
+            
+        </span>
+        
+        
+        </li><li class="cms-index-article-normal">
+        
+        <span class="title">
+            
+            <a nctype="article_item" href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=13" target="_blank" class_name="资讯" article_abstract="" article_click="12" article_publish_time="2017-05-16" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png">
+                “一带一路”机遇下——品牌日托起酒企业再发展！            </a>
+            
+        </span>
+        
+        
+        </li><li class="cms-index-article-normal">
+        
+        <span class="title">
+            
+            <a nctype="article_item" href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=16" target="_blank" class_name="资讯" article_abstract="" article_click="11" article_publish_time="2017-05-17" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png">
+                酒天仙女网与山西杏花香酒厂达成合作伙伴关系！            </a>
+            
+        </span>
+        
+        
+        </li><li class="cms-index-article-normal">
+        
+        <span class="title">
+            
+            <a nctype="article_item" href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=17" target="_blank" class_name="资讯" article_abstract="" article_click="10" article_publish_time="2017-05-20" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png">
+                酒天仙女亮相糖酒会，为传统酒市场转型提供解决方案            </a>
+            
+        </span>
+        
+        
+        </li>        </ul>
+              </div>
+    </div>
+        <div class="articel-block">
+      <div class="title-bar">
+        <h3 id="index1_2_2_title" nctype="object_module_edit">酒类文化</h3>
+              </div>
+      <div class="content-box content-special">
+        <ul id="index1_2_2_1_content" nctype="object_module_edit">
+          <li><div class="cms-thumb" nctype="article_view"><a nctype="article_view" href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=24"><img class="t-img" src="http://www.jiutianxiannv.com/data/upload/cms/article/1/05490205241787747_list.jpg" style="height: 96px; width: 193.613px; left: -37px; top: 0px;"></a></div>
+        
+        <span class="title">
+            
+            <a nctype="article_item" href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=24" target="_blank" class_name="资讯" article_abstract="" article_click="0" article_publish_time="2017-05-25" article_image="http://www.jiutianxiannv.com/data/upload/cms/article/1/05490205241787747_list.jpg">
+                古人劝酒竟然如此优雅！            </a>
+            
+        </span>
+        
+        
+        </li>        </ul>
+              </div>
+      <div class="content-box content-normal">
+        <ul id="index1_2_2_2_content" nctype="object_module_edit">
+          <li class="cms-index-article-focus">
+        
+        <span class="title">
+            
+            <a nctype="article_item" href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=19" target="_blank" class_name="资讯" article_abstract="" article_click="0" article_publish_time="2017-05-23" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png">
+                白酒是放得越久越好吗？            </a>
+            
+        </span>
+        
+        
+        </li><li class="cms-index-article-normal">
+        
+        <span class="title">
+            
+            <a nctype="article_item" href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=12" target="_blank" class_name="资讯" article_abstract="" article_click="30" article_publish_time="2017-05-13" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png">
+                酒天仙女网高层研讨上线事宜            </a>
+            
+        </span>
+        
+        
+        </li><li class="cms-index-article-normal">
+        
+        <span class="title">
+            
+            <a nctype="article_item" href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=13" target="_blank" class_name="资讯" article_abstract="" article_click="12" article_publish_time="2017-05-16" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png">
+                “一带一路”机遇下——品牌日托起酒企业再发展！            </a>
+            
+        </span>
+        
+        
+        </li>        </ul>
+              </div>
+    </div>
+        <div class="articel-block">
+      <div class="title-bar">
+        <h3 id="index1_2_3_title" nctype="object_module_edit">酒界科技</h3>
+              </div>
+      <div class="content-box content-special">
+        <ul id="index1_2_3_1_content" nctype="object_module_edit">
+          <li><div class="cms-thumb" nctype="article_view"><a nctype="article_view" href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=25"><img class="t-img" src="http://www.jiutianxiannv.com/data/upload/cms/article/1/05490213094759068_list.jpg" style="width: 120px; height: 140px; top: -22px;"></a></div>
+        
+        <span class="title">
+            
+            <a nctype="article_item" href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=25" target="_blank" class_name="资讯" article_abstract="" article_click="0" article_publish_time="2017-05-25" article_image="http://www.jiutianxiannv.com/data/upload/cms/article/1/05490213094759068_list.jpg">
+                如何使自酿葡萄酒不发霉            </a>
+            
+        </span>
+        
+        
+        </li>        </ul>
+              </div>
+      <div class="content-box content-normal">
+        <ul id="index1_2_3_2_content" nctype="object_module_edit">
+          <li class="cms-index-article-focus">
+        
+        <span class="title">
+            
+            <a nctype="article_item" href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=20" target="_blank" class_name="资讯" article_abstract="" article_click="0" article_publish_time="2017-05-23" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png">
+                45°本色佳酿30年 清香型（优级）500ml            </a>
+            
+        </span>
+        
+        
+        </li><li class="cms-index-article-normal">
+        
+        <span class="title">
+            
+            <a nctype="article_item" href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=15" target="_blank" class_name="资讯" article_abstract="" article_click="8" article_publish_time="2017-05-17" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png">
+                酒天仙女网组织员工进行环保植树春游活动！            </a>
+            
+        </span>
+        
+        
+        </li><li class="cms-index-article-normal">
+        
+        <span class="title">
+            
+            <a nctype="article_item" href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=16" target="_blank" class_name="资讯" article_abstract="" article_click="11" article_publish_time="2017-05-17" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png">
+                酒天仙女网与山西杏花香酒厂达成合作伙伴关系！            </a>
+            
+        </span>
+        
+        
+        </li>        </ul>
+              </div>
+    </div>
+        <div class="articel-block">
+      <div class="title-bar">
+        <h3 id="index1_2_4_title" nctype="object_module_edit">品酒新技能</h3>
+              </div>
+      <div class="content-box content-special">
+        <ul id="index1_2_4_1_content" nctype="object_module_edit">
+          <li><div class="cms-thumb" nctype="article_view"><a nctype="article_view" href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=23"><img class="t-img" src="http://www.jiutianxiannv.com/data/upload/cms/article/1/05489517567876889_list.jpg" style="height: 96px; width: 151.579px; left: -15.5px; top: 0px;"></a></div>
+        
+        <span class="title">
+            
+            <a nctype="article_item" href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=23" target="_blank" class_name="资讯" article_abstract="" article_click="1" article_publish_time="2017-05-24" article_image="http://www.jiutianxiannv.com/data/upload/cms/article/1/05489517567876889_list.jpg">
+                品酒小白必学技能！            </a>
+            
+        </span>
+        
+        
+        </li>        </ul>
+              </div>
+      <div class="content-box content-normal">
+        <ul id="index1_2_4_2_content" nctype="object_module_edit">
+          <li class="cms-index-article-focus">
+        
+        <span class="title">
+            
+            <a nctype="article_item" href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=12" target="_blank" class_name="资讯" article_abstract="" article_click="29" article_publish_time="2017-05-13" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png">
+                酒天仙女网高层研讨上线事宜            </a>
+            
+        </span>
+        
+        
+        </li><li class="cms-index-article-normal">
+        
+        <span class="title">
+            
+            <a nctype="article_item" href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=18" target="_blank" class_name="资讯" article_abstract="" article_click="12" article_publish_time="2017-05-20" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png">
+                智利中央山谷美奥干红葡萄酒            </a>
+            
+        </span>
+        
+        
+        </li><li class="cms-index-article-normal">
+        
+        <span class="title">
+            
+            <a nctype="article_item" href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=19" target="_blank" class_name="资讯" article_abstract="" article_click="3" article_publish_time="2017-05-23" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png">
+                白酒是放得越久越好吗？            </a>
+            
+        </span>
+        
+        
+        </li>        </ul>
+              </div>
+    </div>
+      </div>
+  <!-- 商品分类　-->
+  <div class="cms-index-module-index1-3">
+    <div class="title-bar">
+      <h3 id="index1_3_title" nctype="object_module_edit">酒品分类</h3>
+          </div>
+    <div class="content-box mall-class">
+      <div id="index1_3_content" nctype="object_module_edit"> <dl>
+  <dt>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=1" target="_blank">白酒</a> </dt>
+  <div class="clear"></div>
+      <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=4" target="_blank">香型</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=5" target="_blank">产地</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=6" target="_blank">大牌名品</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=7" target="_blank">低度白酒</a> </dd>
+    </dl>
+
+<dl>
+  <dt>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=4" target="_blank">香型</a> </dt>
+  <div class="clear"></div>
+      <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=12" target="_blank">淡雅型</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=13" target="_blank">浓香型</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=14" target="_blank">酱香型</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=15" target="_blank">兼香型</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=16" target="_blank">凤香型</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=17" target="_blank">清香型</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=18" target="_blank">董香型</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=19" target="_blank">芝麻香型</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=20" target="_blank">老白干香型</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=21" target="_blank">其它香型</a> </dd>
+    </dl>
+
+<dl>
+  <dt>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=6" target="_blank">大牌名品</a> </dt>
+  <div class="clear"></div>
+      <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=58" target="_blank">茅台</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=59" target="_blank">五粮液</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=60" target="_blank">泸州老窖</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=61" target="_blank">剑南春</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=62" target="_blank">水井坊</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=63" target="_blank">郎酒</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=64" target="_blank">丰谷</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=65" target="_blank">洋河</a> </dd>
+    </dl>
+
+<dl>
+  <dt>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=153" target="_blank">口味类型</a> </dt>
+  <div class="clear"></div>
+      <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=166" target="_blank">干型葡萄酒</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=167" target="_blank">半干型葡萄酒</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=168" target="_blank">半甜型葡萄酒</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=169" target="_blank">甜型葡萄酒</a> </dd>
+    </dl>
+
+<dl>
+  <dt>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=3" target="_blank">洋酒</a> </dt>
+  <div class="clear"></div>
+      <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=200" target="_blank">品牌洋酒</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=201" target="_blank">白兰地</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=202" target="_blank">威士忌</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=203" target="_blank">伏特加</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=204" target="_blank">朗姆酒</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=205" target="_blank">配制酒</a> </dd>
+    </dl>
+
+<dl>
+  <dt>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=256" target="_blank">啤酒</a> </dt>
+  <div class="clear"></div>
+      <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=258" target="_blank">颜色</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=259" target="_blank">国家</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=260" target="_blank">进口品牌</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=261" target="_blank">国产品牌</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=390" target="_blank">规格分类</a> </dd>
+    </dl>
+
+
+
+<dl>
+  <dt>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=470" target="_blank">酒饮料</a> </dt>
+  <div class="clear"></div>
+      <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=471" target="_blank">优质果酒</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=472" target="_blank">饮料分区</a> </dd>
+    <dd>  <a href="http://www.jiutianxiannv.com/shop/index.php?act=search&cate_id=473" target="_blank">女士蜂蜜酒</a> </dd>
+    </dl> </div>
+            <div class="goto-mall"><a href="http://www.jiutianxiannv.com/shop" target="_blank">进入商城</a></div>
+   </div>
+   <div class="clear"></div>
+  </div>
+</div>
+<script type="text/javascript">
+$(window).load(function() {
+//比例局中裁切显示图片
+	$(".cms-index-module-index1-1-1 .t-img").VMiddleImg({"width":380,"height":230});
+    $(".circle-theme-item .t-img").VMiddleImg({"width":160,"height":100});
+	$(".cms-index-module-index1-2 .t-img").VMiddleImg({"width":120,"height":96});
+
+});
+</script>
+<textarea class="lazyload_container" rows="10" cols="30" style="display:none;">
+
+<div class="cms-index-module-article2 module-style-style1">
+  <div class="cms-index-module-article-title"> 
+    <!-- 标题 -->
+    <div class="cms-index-module-article-title-left">
+      <h2 id="article2_title" nctype="object_module_edit">每日酒单</h2>
+          </div>
+    <!-- 标签 -->
+    <div class="cms-index-module-article-title-right">
+      <ul id="article2_tag" nctype="object_module_edit">
+              </ul>
+          </div>
+  </div>
+  <div class="clear"></div>
+  <div class="cms-index-module-article2-1">
+    <div class="title-bar">
+      <h3 id="article2_1_title" nctype="object_module_edit"></h3>
+          </div>
+    <div class="content-box">
+      <ul id="article2_1_content" nctype="object_module_edit">
+        <li><div class="cms-thumb" nctype="article_view"><a nctype="article_view" href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=18"><img class="t-img" src="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png" style="top: 35px;"></a></div>
+        
+        <span class="title">
+            
+            <a nctype="article_item" href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=18" target="_blank" class_name="资讯" article_abstract="" article_click="2" article_publish_time="2017-05-20" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png">
+                智利中央山谷美奥干红葡萄酒            </a>
+            
+        </span>
+        
+        
+        </li><li><div class="cms-thumb" nctype="article_view"><a nctype="article_view" href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=15"><img class="t-img" src="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png" style="top: 35px;"></a></div>
+        
+        <span class="title">
+            
+            <a nctype="article_item" href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=15" target="_blank" class_name="资讯" article_abstract="" article_click="3" article_publish_time="2017-05-17" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png">
+                酒天仙女网组织员工进行环保植树春游活动！            </a>
+            
+        </span>
+        
+        
+        </li>      </ul>
+          </div>
+  </div>
+  <!-- 文章　-->
+  <div class="cms-index-module-article2-2">
+    <div class="title-bar">
+      <h3 id="article2_2_title" nctype="object_module_edit">酒商必读</h3>
+          </div>
+    <div class="content-box article2-2-1-content">
+      <ul id="article2_2_1_content" nctype="object_module_edit"> <li><div class="cms-thumb" nctype="article_view"><a nctype="article_view" href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=16"><img class="t-img" src="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png" style="top: 35px;"></a></div>
+        
+        <span class="title">
+            
+            <a nctype="article_item" href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=16" target="_blank" class_name="资讯" article_abstract="" article_click="3" article_publish_time="2017-05-17" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png">
+                酒天仙女网与山西杏花香酒厂达成合作伙伴关系！            </a>
+            
+        </span>
+        
+        
+        </li>      </ul>
+          </div>
+    <div class="content-box article2-2-2-content">
+      <ul id="article2_2_2_content" nctype="object_module_edit">
+        <li class="cms-index-article-normal"><span nctype="article_view" class="cms-index-article-class">资讯</span>
+        
+        <span class="title">
+            
+            <a nctype="article_item" href="http://www.jiutianxiannv.com/cms/index.php?act=article&op=article_detail&article_id=17" target="_blank" class_name="资讯" article_abstract="" article_click="3" article_publish_time="2017-05-20" article_image="http://www.jiutianxiannv.com/data/upload/cms/no_cover.png">
+                酒天仙女亮相糖酒会，为传统酒市场转型提供解决方案            </a>
+            
+        </span>
+        
+        
+        <span nctype="article_view" class="cms-index-article-date">20日</span></li>      </ul>
+          </div>
+  </div>
+  <!-- 商品　-->
+  <div class="cms-index-module-article2-3">
+    <div class="title-bar">
+      <h3 id="article2_3_title" nctype="object_module_edit">品牌栏目</h3>
+          </div>
+    <div class="content-box">
+      <ul id="article2_3_content" nctype="object_module_edit">
+        <li>
+      <div class="cms-thumb"><a nctype="brand_item" href="http://www.jiutianxiannv.com/shop/index.php?act=brand&op=list&brand=383" data-brand-id="383" title="吕萨吕斯酒堡" target="_blank"><img style="width:78px;" src="http://www.jiutianxiannv.com/data/upload/shop/brand/05441016673143664_sm.png" alt="吕萨吕斯酒堡"></a></div>
+      <div class="brand-name"><a href="http://www.jiutianxiannv.com/shop/index.php?act=brand&op=list&brand=383" title="吕萨吕斯酒堡" target="_blank">吕萨吕斯酒堡</a></div>
+      
+    </li><li>
+      <div class="cms-thumb"><a nctype="brand_item" href="http://www.jiutianxiannv.com/shop/index.php?act=brand&op=list&brand=382" data-brand-id="382" title="罗曼尼·康帝" target="_blank"><img style="width:78px;" src="http://www.jiutianxiannv.com/data/upload/shop/brand/05441006170127931_sm.png" alt="罗曼尼·康帝"></a></div>
+      <div class="brand-name"><a href="http://www.jiutianxiannv.com/shop/index.php?act=brand&op=list&brand=382" title="罗曼尼·康帝" target="_blank">罗曼尼·康帝</a></div>
+      
+    </li><li>
+      <div class="cms-thumb"><a nctype="brand_item" href="http://www.jiutianxiannv.com/shop/index.php?act=brand&op=list&brand=381" data-brand-id="381" title="奥比昂酒庄" target="_blank"><img style="width:78px;" src="http://www.jiutianxiannv.com/data/upload/shop/brand/05440126140781706_sm.jpg" alt="奥比昂酒庄"></a></div>
+      <div class="brand-name"><a href="http://www.jiutianxiannv.com/shop/index.php?act=brand&op=list&brand=381" title="奥比昂酒庄" target="_blank">奥比昂酒庄</a></div>
+      
+    </li><li>
+      <div class="cms-thumb"><a nctype="brand_item" href="http://www.jiutianxiannv.com/shop/index.php?act=brand&op=list&brand=380" data-brand-id="380" title="葡京" target="_blank"><img style="width:78px;" src="http://www.jiutianxiannv.com/data/upload/shop/brand/05440125218747975_sm.jpg" alt="葡京"></a></div>
+      <div class="brand-name"><a href="http://www.jiutianxiannv.com/shop/index.php?act=brand&op=list&brand=380" title="葡京" target="_blank">葡京</a></div>
+      
+    </li><li>
+      <div class="cms-thumb"><a nctype="brand_item" href="http://www.jiutianxiannv.com/shop/index.php?act=brand&op=list&brand=379" data-brand-id="379" title="长城葡萄酒" target="_blank"><img style="width:78px;" src="http://www.jiutianxiannv.com/data/upload/shop/brand/05440122362474804_sm.png" alt="长城葡萄酒"></a></div>
+      <div class="brand-name"><a href="http://www.jiutianxiannv.com/shop/index.php?act=brand&op=list&brand=379" title="长城葡萄酒" target="_blank">长城葡萄酒</a></div>
+      
+    </li><li>
+      <div class="cms-thumb"><a nctype="brand_item" href="http://www.jiutianxiannv.com/shop/index.php?act=brand&op=list&brand=378" data-brand-id="378" title="杰卡斯红酒" target="_blank"><img style="width:78px;" src="http://www.jiutianxiannv.com/data/upload/shop/brand/05440118216828687_sm.png" alt="杰卡斯红酒"></a></div>
+      <div class="brand-name"><a href="http://www.jiutianxiannv.com/shop/index.php?act=brand&op=list&brand=378" title="杰卡斯红酒" target="_blank">杰卡斯红酒</a></div>
+      
+    </li>      </ul>
+          </div>
+  </div>
+  <div class="clear"></div>
+</div>
+</textarea>
+<textarea class="lazyload_container" rows="10" cols="30" style="display:none;">
+
+<div class="cms-index-module-adv1">
+  <ul id="adv_content" nctype="object_module_edit">
+    <li class="picture"><div class="cms-thumb"><a href="http://www.jiutianxiannv.com/index.php?act=store_list&op=index" target="_blank"><img data-image-name="05485969424127379.png" src="http://www.jiutianxiannv.com/data/upload/cms/index/05485969424127379.png" alt="" class="t-img"></a></div></li>  </ul>
+  </div>
+</textarea>
+

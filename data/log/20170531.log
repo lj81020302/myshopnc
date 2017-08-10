@@ -1,0 +1,15 @@
+[2017-05-31 22:27:09] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'balance,total_sale_money,total_buy_goods='1'' at line 1
+SELECT * FROM `nc_fx_agent` WHERE agent_id,balance,total_sale_money,total_buy_goods='1'
+[2017-05-31 22:28:09] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'balance,total_sale_money,total_buy_goods='1'' at line 1
+SELECT * FROM `nc_fx_agent` WHERE agent_id,balance,total_sale_money,total_buy_goods='1'
+[2017-05-31 22:28:18] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'balance,total_sale_money,total_buy_goods='1'' at line 1
+SELECT * FROM `nc_fx_agent` WHERE agent_id,balance,total_sale_money,total_buy_goods='1'
+[2017-05-31 22:28:56] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'balance,total_sale_money,total_buy_goods='1'' at line 1
+SELECT * FROM `nc_fx_agent` WHERE agent_id,balance,total_sale_money,total_buy_goods='1'
+[2017-05-31 22:29:00] /shopnc/agent/index.php?act=balance&op=balance&top_code=10400&menu_code=10410 ( act=balance&op=balance ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'balance,total_sale_money,total_buy_goods='1'' at line 1
+SELECT * FROM `nc_fx_agent` WHERE agent_id,balance,total_sale_money,total_buy_goods='1'

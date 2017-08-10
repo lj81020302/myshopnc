@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="format-detection" content="telephone=no"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="msapplication-tap-highlight" content="no" />
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,minimum-scale=1" />
+<title>我的订单</title>
+<link rel="stylesheet" type="text/css" href="../../css/fx_base.css">
+<link rel="stylesheet" type="text/css" href="../../css/fx_nctouch_member.css">
+<link rel="stylesheet" type="text/css" href="../../css/fx_nctouch_common.css">
+<link rel="stylesheet" type="text/css" href="../../css/fx_nctouch_cart.css">
+</head>
+<body>
+<header id="header" class="fixed">
+  <div class="header-wrap">
+    <div class="header-l"><a href="member.html"><i class="back"></i></a></div>
+    <div class="header-title">
+			<h1>我的订单</h1>
+		</div>
+    <div class="header-r"> <a id="header-nav" href="javascript:void(0);"><i class="more"></i><sup></sup></a> </div>
+  </div>
+  <div class="nctouch-nav-layout">
+    <div class="nctouch-nav-menu"> <span class="arrow"></span>
+      <ul>
+        <li><a href="member.html"><i class="member"></i>个人中心</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+<div class="nctouch-main-layout">
+  <div class="nctouch-order-list">
+    <ul id="order-list">
+    </ul>
+  </div>
+  <!--底部总金额固定层End-->
+  <div class="nctouch-bottom-mask">
+    <div class="nctouch-bottom-mask-bg"></div>
+    <div class="nctouch-bottom-mask-block">
+      <div class="nctouch-bottom-mask-tip"><i></i>点击此处返回</div>
+      <div class="nctouch-bottom-mask-top">
+        <p class="nctouch-cart-num">本次交易需在线支付<em id="onlineTotal">0.00</em>元</p>
+        <p style="display:none" id="isPayed"></p>
+        <a href="javascript:void(0);" class="nctouch-bottom-mask-close"><i></i></a> </div>
+      <div class="nctouch-inp-con nctouch-inp-cart">
+        <div class="nctouch-pay">
+          <div class="spacing-div"><span>在线支付方式</span></div>
+          <div class="pay-sel">
+            <label style="display:none">
+              <input type="radio" name="payment_code" class="checkbox" id="alipay" autocomplete="off" />
+              <span class="alipay">支付宝</span></label>
+            <label style="display:none">
+              <input type="radio" name="payment_code" class="checkbox" id="wxpay_jsapi" autocomplete="off" />
+              <span class="wxpay">微信</span></label>
+          </div>
+        </div>
+        <div class="pay-btn"> <a href="javascript:void(0);" id="toPay" class="btn-l">确认支付</a> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="fix-block-r">
+	<a href="javascript:void(0);" class="gotop-btn gotop hide" id="goTopBtn"><i></i></a>
+</div>
+<footer id="footer" class="bottom"></footer>
+<script type="text/html" id="order-list-tmpl">
+<% var order_group_list = datas.order_list; %>
+<% if (order_group_list.length > 0){%>
+	<% for(var i = 0;i<order_group_list.length;i++){
+		var order_info = order_group_list[i];
+	%>
+		<li class="<%if(order_group_list.state==-1){%>gray-order-skin<%}else{%>green-order-skin<%}%> <%if(i>0){%>mt10<%}%>">
+				<div class="nctouch-order-item">
+					<div class="nctouch-order-item-head">
+							<a class="store"><i class="icon"></i><%=order_info.agent_name%></a>
+						<span class="state">
+							<%
+								var stateClass ="ot-finish";
+								var stateName = "已完成";
+								var orderstate = order_info.state;
+								if(orderstate == 10){
+									stateClass = "ot-nofinish";
+									stateName = "已完成";
+								}else if(orderstate == 1) {
+									stateClass = "ot-nofinish";
+									stateName = "待发货";
+								}else if(orderstate == 2) {
+									stateClass = "ot-nofinish";
+									stateName = "待收货";
+								}else if(orderstate == 3) {
+									stateClass = "ot-nofinish";
+									stateName = "已收货";
+								}else if(orderstate == -1) {
+									stateClass = "ot-cancel";
+									stateName = "已关闭";
+								}else {
+									stateClass = stateClass;
+									stateName = "待支付";
+								}
+							%>
+							<span class="<%=stateClass%>"><%=stateName%></span>
+						</span>
+					</div>
+					
+			<% 
+			var count = 0;
+			for(var j = 0;j<order_info.order_goods_list.length;j++){
+				var order_goods = order_info.order_goods_list[j];
+				count += parseInt(order_goods.goods_num);
+			%>
+
+					<div class="nctouch-order-item-con">
+						<div class="goods-block">
+						<a href="javascript: void(0);">
+							<div class="goods-pic">
+								<img src="<%=order_goods.goods_image%>"/>
+							</div>
+							<dl class="goods-info">
+								<dt class="goods-name"><%=order_goods.goods_name%></dt>
+								<dd class="goods-type"></dd>
+							</dl>
+							<div class="goods-subtotal">
+								<span class="goods-price">￥<em><%=order_goods.goods_price%></em></span>
+								<span class="goods-num">x<%=order_goods.goods_num%></span>
+							</div>
+						</a>
+						</div>
+					</div>
+
+			<%}%>
+				<div class="nctouch-order-item-footer">
+					<div class="store-totle">
+							<span>共<em><%=count%></em>件商品，合计</span><span class="sum">￥<em><%=order_info.order_amount%></em></span><span class="freight"></span>
+						</div>    
+					</div>
+				</div>
+			<%if(order_info.state==0){%>
+				<a href="javascript:;" data-paySn="<%=order_info.order_sn%>" class="btn-l check-payment">订单支付<em>（￥<%= p2f(order_info.order_amount) %>）</em></a>
+			<%}%>
+
+		</li>
+	<%}%>
+
+	<% if (hasmore) {%>
+	<li class="loading"><div class="spinner"><i></i></div>订单数据读取中...</li>
+	<% } %>
+<%}else {%>
+	<div class="nctouch-norecord order">
+		<div class="norecord-ico"><i></i></div>
+		<dl>
+			<dt>您还没有相关的订单</dt>
+			<dd>可以去看看哪些想要买的</dd>
+		</dl>
+		<a href="<%=WapSiteUrl%>" class="btn">随便逛逛</a>
+	</div>
+<%}%>
+</script> 
+<script type="text/javascript" src="../../js/zepto.min.js"></script> 
+<script type="text/javascript" src="../../js/template.js"></script> 
+<script type="text/javascript" src="../../js/config.js"></script> 
+<script type="text/javascript" src="../../js/fx_common.js"></script> 
+<script type="text/javascript" src="../../js/simple-plugin.js"></script> 
+<script type="text/javascript" src="../../js/zepto.waypoints.js"></script> 
+<script type="text/javascript" src="../../js/tmpl/fx_order_payment_common.js"></script> 
+<script type="text/javascript" src="../../js/tmpl/fx_order_list.js"></script>
+</body>
+</html>

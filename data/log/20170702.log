@@ -1,0 +1,123 @@
+[2017-07-02 08:18:01] /shopnc/mobile/index.php?act=goods&op=goods_detail&goods_id=100009&key=5382e4b557b87ed27374b8a75fbf7bc1 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Duplicate entry '100009-7' for key 'PRIMARY'
+INSERT  INTO `nc_goods_browse` (goods_id,member_id,browsetime,gc_id,gc_id_1,gc_id_2,gc_id_3) VALUES ('100009','7','1498954681','587','530','540','587')
+[2017-07-02 09:37:01] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_add ( act=fx_member_cart&op=cart_add ) 
+ERR: Db Error: Column 'fx_goods_id' cannot be null
+INSERT  INTO `nc_fx_cart` (buyer_id,agent_id,fx_goods_id,goods_name,goods_price,goods_num,goods_image,agent_name,bl_id) VALUES ('10','1',NULL,'劳力士Rolex 蚝式恒动系列自动机械钢带男表正品116523-8DI-78593','146300.00','1','1_04752627900055146.png','5115','0')
+[2017-07-02 09:37:05] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_add ( act=fx_member_cart&op=cart_add ) 
+ERR: Db Error: Column 'fx_goods_id' cannot be null
+INSERT  INTO `nc_fx_cart` (buyer_id,agent_id,fx_goods_id,goods_name,goods_price,goods_num,goods_image,agent_name,bl_id) VALUES ('10','1',NULL,'劳力士Rolex 蚝式恒动系列自动机械钢带男表正品116523-8DI-78593','146300.00','1','1_04752627900055146.png','5115','0')
+[2017-07-02 09:37:11] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_add ( act=fx_member_cart&op=cart_add ) 
+ERR: Db Error: Column 'fx_goods_id' cannot be null
+INSERT  INTO `nc_fx_cart` (buyer_id,agent_id,fx_goods_id,goods_name,goods_price,goods_num,goods_image,agent_name,bl_id) VALUES ('10','1',NULL,'劳力士Rolex 蚝式恒动系列自动机械钢带男表正品116523-8DI-78593','146300.00','1','1_04752627900055146.png','5115','0')
+[2017-07-02 09:38:08] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_add ( act=fx_member_cart&op=cart_add ) 
+ERR: Db Error: Column 'fx_goods_id' cannot be null
+INSERT  INTO `nc_fx_cart` (buyer_id,agent_id,fx_goods_id,goods_name,goods_price,goods_num,goods_image,agent_name,bl_id) VALUES ('10','1',NULL,'劳力士Rolex 蚝式恒动系列自动机械钢带男表正品116523-8DI-78593','146300.00','1','1_04752627900055146.png','5115','0')
+[2017-07-02 09:38:18] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_add ( act=fx_member_cart&op=cart_add ) 
+ERR: Db Error: Column 'fx_goods_id' cannot be null
+INSERT  INTO `nc_fx_cart` (buyer_id,agent_id,fx_goods_id,goods_name,goods_price,goods_num,goods_image,agent_name,bl_id) VALUES ('10','1',NULL,'劳力士Rolex 蚝式恒动系列自动机械钢带男表正品116523-8DI-78593','146300.00','1','1_04752627900055146.png','5115','0')
+[2017-07-02 09:41:13] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_add ( act=fx_member_cart&op=cart_add ) 
+ERR: Db Error: Column 'fx_goods_id' cannot be null
+INSERT  INTO `nc_fx_cart` (buyer_id,agent_id,fx_goods_id,goods_name,goods_price,goods_num,goods_image,agent_name,bl_id) VALUES ('10','1',NULL,'劳力士Rolex 蚝式恒动系列自动机械钢带男表正品116523-8DI-78593','146300.00','1','1_04752627900055146.png','5115','0')
+[2017-07-02 09:42:04] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_add ( act=fx_member_cart&op=cart_add ) 
+ERR: Db Error: Column 'fx_goods_id' cannot be null
+INSERT  INTO `nc_fx_cart` (buyer_id,agent_id,fx_goods_id,goods_name,goods_price,goods_num,goods_image,agent_name,bl_id) VALUES ('10','1',NULL,'劳力士Rolex 蚝式恒动系列自动机械钢带男表正品116523-8DI-78593','146300.00','1','1_04752627900055146.png','5115','0')
+[2017-07-02 09:44:37] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_add ( act=fx_member_cart&op=cart_add ) 
+ERR: Db Error: Column 'fx_goods_id' cannot be null
+INSERT  INTO `nc_fx_cart` (buyer_id,agent_id,fx_goods_id,goods_name,goods_price,goods_num,goods_image,agent_name,bl_id) VALUES ('10','1',NULL,'劳力士Rolex 蚝式恒动系列自动机械钢带男表正品116523-8DI-78593','146300.00','1','1_04752627900055146.png','5115','0')
+[2017-07-02 13:08:47] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'where clause'
+SELECT * FROM `nc_fx_goods` WHERE ( fx_goods_id = '16' ) AND ( buyer_id = '10' ) AND ( bl_id = '0' ) LIMIT 1  
+[2017-07-02 13:08:47] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'field list'
+INSERT  INTO `nc_fx_goods` (buyer_id,agent_id,fx_goods_id,goods_name,goods_price,goods_num,goods_image,agent_name,bl_id) VALUES ('10','1','16','劳力士Rolex 日志型系列 自动机械钢带男表 联保正品 116233','97800.00','1','1_04752627799921979.jpg','5115','0')
+[2017-07-02 13:08:47] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'where clause'
+SELECT * FROM `nc_fx_goods` WHERE ( buyer_id = '10' ) LIMIT 1000  
+[2017-07-02 13:10:26] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'where clause'
+SELECT * FROM `nc_fx_goods` WHERE ( fx_goods_id = '100004' ) AND ( buyer_id = '10' ) AND ( bl_id = '0' ) LIMIT 1  
+[2017-07-02 13:10:26] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'field list'
+INSERT  INTO `nc_fx_goods` (buyer_id,agent_id,fx_goods_id,goods_name,goods_price,goods_num,goods_image,agent_name,bl_id) VALUES ('10','1','100004','劳力士Rolex 日志型系列 自动机械钢带男表 联保正品 116233','97800.00','1','1_04752627799921979.jpg','5115','0')
+[2017-07-02 13:10:26] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'where clause'
+SELECT * FROM `nc_fx_goods` WHERE ( buyer_id = '10' ) LIMIT 1000  
+[2017-07-02 13:13:17] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'where clause'
+SELECT * FROM `nc_fx_goods` WHERE ( fx_goods_id = '16' ) AND ( buyer_id = '10' ) AND ( bl_id = '0' ) LIMIT 1  
+[2017-07-02 13:13:17] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'field list'
+INSERT  INTO `nc_fx_goods` (buyer_id,agent_id,fx_goods_id,goods_name,goods_price,goods_num,goods_image,agent_name,bl_id) VALUES ('10','1','16','劳力士Rolex 日志型系列 自动机械钢带男表 联保正品 116233','97800.00','1','1_04752627799921979.jpg','5115','0')
+[2017-07-02 13:13:17] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'where clause'
+SELECT * FROM `nc_fx_goods` WHERE ( buyer_id = '10' ) LIMIT 1000  
+[2017-07-02 13:16:08] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'where clause'
+SELECT * FROM `nc_fx_goods` WHERE ( fx_goods_id = '16' ) AND ( buyer_id = '10' ) AND ( bl_id = '0' ) LIMIT 1  
+[2017-07-02 13:16:08] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'field list'
+INSERT  INTO `nc_fx_goods` (buyer_id,agent_id,fx_goods_id,goods_name,goods_price,goods_num,goods_image,agent_name,bl_id) VALUES ('10','1','16','劳力士Rolex 日志型系列 自动机械钢带男表 联保正品 116233','97800.00','1','1_04752627799921979.jpg','5115','0')
+[2017-07-02 13:16:08] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'where clause'
+SELECT * FROM `nc_fx_goods` WHERE ( buyer_id = '10' ) LIMIT 1000  
+[2017-07-02 13:18:32] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'where clause'
+SELECT * FROM `nc_fx_goods` WHERE ( fx_goods_id = '16' ) AND ( buyer_id = '10' ) AND ( bl_id = '0' ) LIMIT 1  
+[2017-07-02 13:18:32] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'field list'
+INSERT  INTO `nc_fx_goods` (buyer_id,agent_id,fx_goods_id,goods_name,goods_price,goods_num,goods_image,agent_name,bl_id) VALUES ('10','1','16','劳力士Rolex 日志型系列 自动机械钢带男表 联保正品 116233','97800.00','1','1_04752627799921979.jpg','5115','0')
+[2017-07-02 13:18:32] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'where clause'
+SELECT * FROM `nc_fx_goods` WHERE ( buyer_id = '10' ) LIMIT 1000  
+[2017-07-02 13:19:22] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'where clause'
+SELECT * FROM `nc_fx_goods` WHERE ( fx_goods_id = '16' ) AND ( buyer_id = '10' ) AND ( bl_id = '0' ) LIMIT 1  
+[2017-07-02 13:19:22] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'field list'
+INSERT  INTO `nc_fx_goods` (buyer_id,agent_id,fx_goods_id,goods_name,goods_price,goods_num,goods_image,agent_name,bl_id) VALUES ('10','1','16','劳力士Rolex 日志型系列 自动机械钢带男表 联保正品 116233','97800.00','1','1_04752627799921979.jpg','5115','0')
+[2017-07-02 13:19:22] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'where clause'
+SELECT * FROM `nc_fx_goods` WHERE ( buyer_id = '10' ) LIMIT 1000  
+[2017-07-02 13:21:17] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'where clause'
+SELECT * FROM `nc_fx_goods` WHERE ( fx_goods_id = '16' ) AND ( buyer_id = '10' ) AND ( bl_id = '0' ) LIMIT 1  
+[2017-07-02 13:21:17] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'field list'
+INSERT  INTO `nc_fx_goods` (buyer_id,agent_id,fx_goods_id,goods_name,goods_price,goods_num,goods_image,agent_name,bl_id) VALUES ('10','1','16','劳力士Rolex 日志型系列 自动机械钢带男表 联保正品 116233','97800.00','1','1_04752627799921979.jpg','5115','0')
+[2017-07-02 13:21:17] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'where clause'
+SELECT * FROM `nc_fx_goods` WHERE ( buyer_id = '10' ) LIMIT 1000  
+[2017-07-02 13:27:56] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'where clause'
+SELECT * FROM `nc_fx_goods` WHERE ( fx_goods_id = '16' ) AND ( buyer_id = '10' ) AND ( bl_id = '0' ) LIMIT 1  
+[2017-07-02 13:27:56] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'field list'
+INSERT  INTO `nc_fx_goods` (buyer_id,agent_id,agent_name,fx_goods_id,goods_name,goods_price,goods_num,goods_image,bl_id) VALUES ('10','1','5115','16','劳力士Rolex 日志型系列 自动机械钢带男表 联保正品 116233','97800','1','1_04752627799921979.jpg','0')
+[2017-07-02 13:27:56] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'where clause'
+SELECT * FROM `nc_fx_goods` WHERE ( buyer_id = '10' ) LIMIT 1000  
+[2017-07-02 13:29:51] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'where clause'
+SELECT * FROM `nc_fx_goods` WHERE ( fx_goods_id = '16' ) AND ( buyer_id = '10' ) AND ( bl_id = '0' ) LIMIT 1  
+[2017-07-02 13:29:51] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'field list'
+INSERT  INTO `nc_fx_goods` (buyer_id,agent_id,agent_name,fx_goods_id,goods_name,goods_price,goods_num,goods_image,bl_id) VALUES ('10','1','5115','16','劳力士Rolex 日志型系列 自动机械钢带男表 联保正品 116233','97800','1','1_04752627799921979.jpg','0')
+[2017-07-02 13:29:51] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'where clause'
+SELECT * FROM `nc_fx_goods` WHERE ( buyer_id = '10' ) LIMIT 1000  
+[2017-07-02 13:44:35] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'where clause'
+SELECT * FROM `nc_fx_goods` WHERE ( fx_goods_id = '16' ) AND ( buyer_id = '10' ) AND ( bl_id = '0' ) LIMIT 1  
+[2017-07-02 13:44:35] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'field list'
+INSERT  INTO `nc_fx_goods` (buyer_id,agent_id,agent_name,fx_goods_id,goods_name,goods_price,goods_num,goods_image,bl_id) VALUES ('10','1','5115','16','劳力士Rolex 日志型系列 自动机械钢带男表 联保正品 116233','97800','1','1_04752627799921979.jpg','0')
+[2017-07-02 13:44:35] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Unknown column 'buyer_id' in 'where clause'
+SELECT * FROM `nc_fx_goods` WHERE ( buyer_id = '10' ) LIMIT 1000  
+[2017-07-02 14:03:49] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Column 'goods_num' cannot be null
+INSERT  INTO `nc_fx_cart` (buyer_id,agent_id,fx_goods_id,goods_name,goods_price,goods_num,goods_image,agent_name,bl_id) VALUES ('10','5','15','劳力士ROLEX-潜航者型 116610-LV-97200自动机械钢带男表联保正品','70000.00',NULL,'1_04752627678636481.jpg','茅台代理商','0')
+[2017-07-02 14:09:29] /shopnc/mobile/index.php?act=fx_member_cart&op=cart_batchadd ( act=fx_member_cart&op=cart_batchadd ) 
+ERR: Db Error: Column 'goods_num' cannot be null
+INSERT  INTO `nc_fx_cart` (buyer_id,agent_id,fx_goods_id,goods_name,goods_price,goods_num,goods_image,agent_name,bl_id) VALUES ('10','5','15','劳力士ROLEX-潜航者型 116610-LV-97200自动机械钢带男表联保正品','70000.00',NULL,'1_04752627678636481.jpg','茅台代理商','0')
