@@ -27,6 +27,7 @@ class fx_member_orderControl extends mobileMemberControl {
         
         $condition['agent_id'] = $this->agent_info['agent_id'];
         $condition['order'] = 'add_time desc';
+        $condition['buyer_id'] = $this->member_info['member_id'];
         $dataList = $model_order->getOrdersList($condition);
         $condition['join_type'] = 'right join';
         $orderGoodsList = $model_order->getOrdersGoodsList($condition);
