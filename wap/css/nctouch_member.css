@@ -474,6 +474,10 @@ i.cc-10 { background-image: url(../images/mcc_10_b.png); background-size: cover;
 
 /*用户反馈*/
 .feedback textarea { background-color: #FFF; width: 90%; height: 4rem; padding: 0.5rem 2.5%; margin: 0.5rem 2.5%; border: none; font-size: 0.6rem; line-height: 0.9rem;}
+/*myrecord2017-03-13 22:50:22*/
+.feedback input {width: 70%;margin: 0.5rem 2.5%;height: 1rem;border: none;}
+.s_title {font-size: 0.6rem;}
+.s_title b {color: red;}
 
 /*返利A*/
 .invitea { position: absolute; z-index: 1;  margin: 0.5rem 2.5%; border: none; font-size: 0.6rem; line-height: 0.9rem;}

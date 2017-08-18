@@ -418,6 +418,7 @@ class voucherModel extends Model {
                         }
                     }
                 }
+                $v['voucher_t_end_date_text'] = @date('Y-m-d',$v['voucher_t_end_date']);
                 //会员等级
                 $v['voucher_t_mgradelimittext'] = $member_grade[$v['voucher_t_mgradelimit']]['level_name'];
                 

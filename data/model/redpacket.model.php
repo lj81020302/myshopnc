@@ -112,6 +112,7 @@ class redpacketModel extends Model {
                         }
                     }
                 }
+                $v['rpacket_t_end_date_text'] = @date('Y-m-d',$v['rpacket_t_end_date']);
                 //会员等级
                 $v['rpacket_t_mgradelimittext'] = $member_grade[$v['rpacket_t_mgradelimit']]['level_name'];
     
